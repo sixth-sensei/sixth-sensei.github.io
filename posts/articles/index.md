@@ -21,5 +21,5 @@ Hacking cheatsheet/Blogs....
 - [[Aug 17 2023]] [Dev VM](https://sec-fortress.github.io/posts/articles/posts/dev.html) `Enumeration, Information Channeling`
 - [[Aug 21 2023]] [Blackpearl VM](https://sec-fortress.github.io/posts/articles/posts/blackpearl.html) `Enumeration, Information Channeling`
 - [[Aug 21 2023]] [Discovering vulnerabilities quickly with targeted scanning](https://sec-fortress.github.io/posts/articles/posts/Discovering%20vulnerabilities%20quickly%20with%20targeted%20scanning.html) `Burp Suite, XXE Injection`
-- [[Aug 21 2023]] [Setting Up a Domain Controller](https://sec-fortress.github.io/posts/articles/posts/Setting%20Up%20a%20Domain%20Controller.html)
-- [[Sep 17 2023]] [Breaching Active Directory](https://sec-fortress.github.io/posts/articles/posts/Breaching%20Active%20Directory.md)
+- [[Aug 21 2023]] [Setting Up a Domain Controller](https://sec-fortress.github.io/posts/articles/posts/Setting%20Up%20a%20Domain%20Controller.html) `Windows server, Windows 10`
+- [[Sep 17 2023]] [Breaching Active Directory](https://sec-fortress.github.io/posts/articles/posts/Breaching%20Active%20Directory.html) `Common Active Dirctory Attacks`
