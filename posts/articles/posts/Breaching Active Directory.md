@@ -365,3 +365,5 @@ In terms of mitigations, there are some steps that organisations can take:
 
 ![](https://i.imgur.com/DXugua1.png)
 
+
+<button onclick="window.location.href='https://sec-fortress.github.io';">Back To Home螥</button>
