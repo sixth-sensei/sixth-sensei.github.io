@@ -1,3 +1,7 @@
+# Sorting Dumped Credentials From NTDS.dit With LibreOffice Calc
+
+***
+
 After dumping the **NTDS.dit** secrets we have to sort out the **NT** part of this hashes that where dumped before we can crack them 👾
 
 ![](https://i.imgur.com/xd3Tc1Y.png)
