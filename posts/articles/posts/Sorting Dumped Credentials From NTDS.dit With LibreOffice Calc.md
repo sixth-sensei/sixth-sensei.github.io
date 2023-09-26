@@ -52,4 +52,4 @@ $ hashcat -m 1000 hash.txt /usr/share/wordlists/rockyou.txt -O --show
 
 Now we want to lookup these hashes on each table we can watch this video to understand better
 
-
+![](https://github.com/sec-fortress/sec-fortress.github.io/blob/main/2023-09-25%2016-52-47.mp4)
