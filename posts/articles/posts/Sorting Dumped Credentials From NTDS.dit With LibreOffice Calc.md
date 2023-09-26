@@ -54,3 +54,6 @@ Now we want to lookup these hashes on each table we can watch this video to unde
 
 **Ooops, Looks like our Video didn't pop up, well you can View-Page source to see the magic ⚡**
 ![](https://github.com/sec-fortress/sec-fortress.github.io/blob/main/2023-09-25%2016-52-47.mp4)
+
+
+<button onclick="window.location.href='https://sec-fortress.github.io';">Back To Home螥</button>
