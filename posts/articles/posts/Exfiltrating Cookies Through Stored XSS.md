@@ -129,4 +129,7 @@ Note that this doesn't only affect the admin user, every user cookie will automa
 
 **Stay Safe**
 
+![](https://giphy.com/gifs/brofist-geralt-good-game-VFMIvNlKndpf2gO5Xp)
 
+
+<button onclick="window.location.href='https://sec-fortress.github.io';">Back To Home螥</button>
