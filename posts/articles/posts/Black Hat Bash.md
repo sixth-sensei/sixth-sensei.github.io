@@ -147,10 +147,11 @@ ls -l mydirectory
 Variables are names we assign to memory locations that hold some value, and they act like placeholders or labels.
 
 The following rules govern the naming of bash variables:
-•They can include alphanumeric characters.
-•They cannot start with a numerical character.
-•They can contain an underscore (_).
-•They cannot contain whitespace.
+
+- They can include alphanumeric characters.
+- They cannot start with a numerical character.
+- They can contain an underscore (_).
+- They cannot contain whitespace.
 
 ### **Assigning and Accessing Variables**
 
