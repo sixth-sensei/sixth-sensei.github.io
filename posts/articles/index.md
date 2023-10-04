@@ -24,4 +24,4 @@ Hacking cheatsheet/Blogs....
 - [[Aug 21 2023]] [Setting Up a Domain Controller](https://sec-fortress.github.io/posts/articles/posts/Setting%20Up%20a%20Domain%20Controller.html) `Windows server, Windows 10`
 - [[Sep 17 2023]] [Breaching Active Directory](https://sec-fortress.github.io/posts/articles/posts/Breaching%20Active%20Directory.html) `Common Active Dirctory Attacks`
 - [[Sep 17 2023]] [Sorting Dumped Credentials From NTDS.dit With LibreOffice Calc](https://sec-fortress.github.io/posts/articles/posts/Sorting%20Dumped%20Credentials%20From%20NTDS.dit%20With%20LibreOffice%20Calc.html) `LibreOffice Calc, NTDS.dit, Vlookup`
-- [[Oct 04 2023]] [Black Hat Bash](https://sec-fortress.github.io/posts/articles/posts/Exfiltrating%20Admin%20Cookies%20Through%20Stored%20XSS.html) `Stored XSS, Ngrok, PHP`
+- [[Oct 04 2023]] [Exfiltrating Admin Cookies Through Stored XSS](https://sec-fortress.github.io/posts/articles/posts/Exfiltrating%20Admin%20Cookies%20Through%20Stored%20XSS.html) `Stored XSS, Ngrok, PHP`
