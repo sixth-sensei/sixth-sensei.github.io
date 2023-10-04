@@ -144,3 +144,91 @@ ls -l mydirectory
 
 ## **Variables**
 
+Variables are names we assign to memory locations that hold some value, and they act like placeholders or labels.
+
+The following rules govern the naming of bash variables:
+•They can include alphanumeric characters.
+•They cannot start with a numerical character.
+•They can contain an underscore (_).
+•They cannot contain whitespace.
+
+### **Assigning and Accessing Variables**
+
+We can assign a variable directly on the terminal
+
+```bash
+$ text="i love bash"
+```
+
+we can use this variable in some command. For example, here we use the `echo` command to print the variable to the screen:
+
+```bash
+$ echo "i love pentesting and ${text}"
+
+i love pentesting and i love bash
+```
+
+We can also assign the output of a command to a variable using the command substitution syntax `$()`, placing the desired command between the two parentheses
+
+```bash
+$ root_directory="$(ls -ld /)"
+$ echo "${root_directory}"
+
+drwxr-xr-x 19 root root 4096 Sep 29 21:12 /
+```
+
+> **Note :** You shouldn’t leave whitespace around the assignment symbol (=) when creating a variable. e.g
+
+```bash
+$ book = "this is an invalid variable assignment"
+```
+
+### **Unassigning Variables**
+
+You can unassign assigned variables using the unset command, as shown here:
+
+```bash
+$ text="i love bash"
+$ unset text
+$ echo "${text}"
+```
+
+
+### **Scoping Variables**
+
+Global variables are those available to the entire program. But variables in bash can also be scoped so that they are only accessible from within a certain block of code. These variables are called local variables and are declared using the local keyword. This script shows how local and global variables work:
+
+
+```bash
+#!/bin/bash
+
+PUBLISHER="No Starch Press"
+
+print_name(){
+  local name
+  name="Black Hat Bash"
+  echo "${name} by ${PUBLISHER}" 
+}
+
+print_name
+
+echo "The variable ${name} will not be printed here because it is a local variable."
+```
+
+- We assign the value **"No Starch Press"** to the variable **"publisher"**
+- created a function called **"print_name()"**
+- Within the function, we declare a local variable called **"name"** and assign it the value "**Black Hat Bash**"
+- Then we call the **"print_name()"** function and attempt to access the **"name"** variable as part of a sentence to be printed using **"echo"**.
+
+If we save the script and run it we get :
+
+```bash
+$ ./local_scope_variable.sh
+$ chmod +x local_scope_variable.sh
+
+Black Hat Bash by No Starch Press
+The variable will not be printed because it is a local variable.
+```
+
+> **Note :** The **echo** command at the end of the script file will result in an empty variable, as the name variable is locally scoped to the **print_name()** function, which means that nothing outside of the function can access it. So, it will simply return without a value.
+
