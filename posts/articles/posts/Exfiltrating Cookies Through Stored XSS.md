@@ -116,3 +116,17 @@ Since we know things are good to go, we can take our malicious XSS payload and a
 
 ![](https://i.imgur.com/MbMCQdE.png)
 
+
+Note that this doesn't only affect the admin user, every user cookie will automatically be dumped once there is a page refresh and we have an account takeover right there, there are various ways to prevent this kind of attacks, here are few
+
+
+- **Input Validation and Sanitization**
+- **Content Security Policy (CSP)**
+- **Use Security Headers**
+- **Web Application Firewall (WAF)**
+- **Security Testing**
+
+
+**Stay Safe**
+
+
