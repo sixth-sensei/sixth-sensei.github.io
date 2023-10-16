@@ -203,6 +203,7 @@ Then we got reverse shell as user **root**
 **_Things i would take note of :_**
 
 - First of all **pivoting** isn't new to me, except for the fact that i had to edit my `/etc/proxychains4.conf` file in other to be able to have access to that specific port, Over here we just accessed it directly because we forwarded traffic from the local port `8080` on our machine to port `8080` on our attacker machine with the IP address `127.0.0.1` (localhost).
+
 - Secondly, **Python Command Injection** seems new to me here and took me hours before i could figure it out, i once did something like this but never knew it was python command injection, it consists of using the `eval` built-in function which takes a single argument and can be a powerful tool for dynamic code execution.
 
 
@@ -212,5 +213,8 @@ Then we got reverse shell as user **root**
 
 ![](https://media.tenor.com/qsdqhlumpMYAAAAC/anime-bankai.gif)
 
+
+
+<button onclick="window.location.href='https://sec-fortress.github.io';">Back To Home螥</button>
 
 
