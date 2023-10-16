@@ -172,7 +172,7 @@ Navigating to `/static/FLAG.png` we have **FLAG71**
 
 ### **Privilege Escalation**
 
-Running [pspy](https://github.com/DominicBreuker/pspy) on our target system we have a root process that is actively running at the server side of the website we have `http://127.0.0.1:8080`
+Running [pspy](https://github.com/DominicBreuker/pspy) on our target system we have a root process that is actively running at the server side of the website, `http://127.0.0.1:8080`
 
 ![](https://i.imgur.com/MI0Ar3z.png)
 
@@ -200,7 +200,10 @@ Then we got reverse shell as user **root**
 
 
 
-**_Things i would take note of :_**
+
+### **_Things i would take note of :_**
+
+
 
 - First of all **pivoting** isn't new to me, except for the fact that i had to edit my `/etc/proxychains4.conf` file in other to be able to have access to that specific port, Over here we just accessed it directly because we forwarded traffic from the local port `8080` on our machine to port `8080` on our attacker machine with the IP address `127.0.0.1` (localhost).
 
