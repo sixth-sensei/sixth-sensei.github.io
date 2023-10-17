@@ -64,3 +64,8 @@ A severe zero-day vulnerability, identified as CVE-2023-42115, has been discover
 - Limit Server Exposure: Only run necessary services and applications. Reducing the number of potential entry points can improve security.
 
 **Remember, vigilance is key in maintaining server security. By staying informed, applying updates promptly, and having a robust security strategy in place, you can help protect your server against emerging threats like the Exim zero-day vulnerability. Stay safe and secure! 💪🔒 #ServerSecurity #ZeroDayProtection #SenseLearner**
+
+
+
+<button onclick="window.location.href='https://sec-fortress.github.io';">Back To Home螥</button>
+
