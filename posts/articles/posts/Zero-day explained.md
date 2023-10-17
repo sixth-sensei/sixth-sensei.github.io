@@ -28,4 +28,12 @@ Remember, cybersecurity is a shared responsibility! Share this post and tag #Sen
 
 
 
+Facebook: [https://www.facebook.com/senselearner](https://www.facebook.com/senselearner)
+Instagram: [https://instagram.com/senselearner_technologies?
+igshid=MzRlODBiNWFlZA==](https://instagram.com/senselearner_technologies?
+igshid=MzRlODBiNWFlZA==)
+Linkedin: [https://www.linkedin.com/company/senselearner-technologies-pvt-ltd/](https://www.linkedin.com/company/senselearner-technologies-pvt-ltd/)
+
+
+
 <button onclick="window.location.href='https://sec-fortress.github.io';">Back To Home螥</button>
