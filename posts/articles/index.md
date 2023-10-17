@@ -26,4 +26,4 @@ Hacking cheatsheet/Blogs....
 - [[Sep 17 2023]] [Sorting Dumped Credentials From NTDS.dit With LibreOffice Calc](https://sec-fortress.github.io/posts/articles/posts/Sorting%20Dumped%20Credentials%20From%20NTDS.dit%20With%20LibreOffice%20Calc.html) `LibreOffice Calc, NTDS.dit, Vlookup`
 - [[Oct 04 2023]] [Exfiltrating Admin Cookies Through Stored XSS](https://sec-fortress.github.io/posts/articles/posts/Exfiltrating%20Cookies%20Through%20Stored%20XSS.html) `Stored XSS, Ngrok, PHP`
 - [[Oct 17 2023]] [Information Disclosure](https://sec-fortress.github.io/posts/articles/posts/Information%20Disclosure.html) `Fuzzing, .git exposed, Authentication bypass`
-- [[Oct 17 2023]] [Information Disclosure](https://sec-fortress.github.io/posts/articles/posts/NDZDA-2023-17-Oct.html) `Zero-Day's, Senselearner, Internship`
+- [[Oct 17 2023]] [Newly Discovered Zero-Day Attacks](https://sec-fortress.github.io/posts/articles/posts/NDZDA-2023-17-Oct.html) `Zero-Day's, Senselearner, Internship`
