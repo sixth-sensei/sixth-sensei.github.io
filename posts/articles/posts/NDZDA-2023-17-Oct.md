@@ -3,7 +3,7 @@
 
 ![Image Credit from : https://appcheck-ng.com/zero-day-vulnerabilities-explained/](https://appcheck-ng.com/wp-content/uploads/Zero-Day-Timeline.png)
 
-***
+
 
 ## **Privilege escalation zero-day in the Atlassian Confluence Data Center and Server**
 
