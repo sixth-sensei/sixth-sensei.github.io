@@ -10,7 +10,7 @@
 Microsoft has exposed 'Storm-0062,' a Chinese-backed threat group, exploiting a critical zero-day vulnerability in Atlassian Confluence Data Center and Server since September 14, 2023. Storm-0062, linked to China's Ministry of State Security, is known for targeting diverse sectors. Rapid7 released a proof-of-concept exploit, adding urgency to upgrading Confluence versions. Older releases and Atlassian-hosted instances remain unaffected. Refer to Atlassian's security bulletin for detailed information.
  
 
-[](https://www.bleepingcomputer.com/news/security/microsoft-state-hackers-exploiting-confluence-zero-day-since-september/)
+[](https://www.bleepingcomputer.com)
 
 
 ## **New IOS XE zero-day actively exploited on Cisco**
