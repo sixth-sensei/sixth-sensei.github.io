@@ -1,6 +1,10 @@
 # 🚀 Let's Dive into Cybersecurity: Zero-Day Attacks Explained! 🚀
 
-Do you know what a Zero-Day Attack is? It's a term buzzing in the cybersecurity world, and here's what it means:
+***
+
+![](https://miro.medium.com/v2/resize:fit:1400/1*Egy-QZuCfTZGXhAgf4MX2A.png)
+
+## Do you know what a Zero-Day Attack is? It's a term buzzing in the cybersecurity world, and here's what it means:
 
 ⏳ **Zero-Day Attack :** Imagine it as a secret weapon in a spy movie. It's an exploit targeting a software vulnerability that's undisclosed (zero days) to the software developer or vendor. This gives them zero days to prepare a defense.
 
