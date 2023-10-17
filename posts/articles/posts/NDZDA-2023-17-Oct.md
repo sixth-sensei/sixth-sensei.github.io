@@ -67,5 +67,13 @@ A severe zero-day vulnerability, identified as CVE-2023-42115, has been discover
 
 
 
+Facebook: [https://www.facebook.com/senselearner](https://www.facebook.com/senselearner)
+Instagram: [https://instagram.com/senselearner_technologies?
+igshid=MzRlODBiNWFlZA==](https://instagram.com/senselearner_technologies?
+igshid=MzRlODBiNWFlZA==)
+Linkedin: [https://www.linkedin.com/company/senselearner-technologies-pvt-ltd/](https://www.linkedin.com/company/senselearner-technologies-pvt-ltd/)
+
+
+
 <button onclick="window.location.href='https://sec-fortress.github.io';">Back To Home螥</button>
 
