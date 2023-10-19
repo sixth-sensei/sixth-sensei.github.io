@@ -41,3 +41,4 @@ Discover CyberSecLabs. With our growing platform delivering beginner hacking con
 - [[Sep. 15 2023]] [ZSCTF2](https://sec-fortress.github.io/posts/thm/posts/ZSCTF2.html) `RCE, Docker Privilege Escalation`
 - [[Sep. 17 2023]] [ZSCTF4](https://sec-fortress.github.io/posts/thm/posts/ZSCTF4.html) `WP-Unauthenticated RCE, Cron jobs, Nano priv Esc`
 - [[Sep. 22 2023]] [Bounty Hunter](https://sec-fortress.github.io/posts/thm/posts/bountyhunter.html) `SSH bruteforce, Tar Privilege Escalation`
+- [[Oct. 19 2023]] [Lazy Admin](https://sec-fortress.github.io/posts/thm/posts/lazyadmin.html) `File Disclosure, RCE, Sudo privilege escalation`
