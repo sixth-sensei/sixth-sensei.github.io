@@ -159,3 +159,8 @@ $ sudo /usr/bin/perl /home/itguy/backup.pl
 ![](https://i.imgur.com/ynoCtur.png)
 
 
+Have fun 😃
+
+<button onclick="window.location.href='https://sec-fortress.github.io';">Back To Home螥</button>
+
+
