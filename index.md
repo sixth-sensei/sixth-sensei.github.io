@@ -42,6 +42,7 @@ Yo 👋, welcome to my Cyber Security Blog! I'm Olaoluwa, an 18-year-old achievi
 - [[Sep. 17 2023]] [ZSCTF4](https://sec-fortress.github.io/posts/thm/posts/ZSCTF4.html) `WP-Unauthenticated RCE, Cron jobs, Nano priv Esc`
 - [[Sep. 22 2023]] [Bounty Hunter](https://sec-fortress.github.io/posts/thm/posts/bountyhunter.html) `SSH bruteforce, Tar Privilege Escalation`
 - [[Oct. 19 2023]] [Lazy Admin](https://sec-fortress.github.io/posts/thm/posts/lazyadmin.html) `File Disclosure, RCE, Sudo privilege escalation`
+- [[Oct. 19 2023]] [tomghost](https://sec-fortress.github.io/posts/thm/posts/tomghost.html) `File read/inclusion, .pgp/.asc decryption, zip Priv Esc via Sudo`
 
 
 * * *
