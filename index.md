@@ -43,6 +43,7 @@ Yo 👋, welcome to my Cyber Security Blog! I'm Olaoluwa, an 18-year-old achievi
 - [[Sep. 22 2023]] [Bounty Hunter](https://sec-fortress.github.io/posts/thm/posts/bountyhunter.html) `SSH bruteforce, Tar Privilege Escalation`
 - [[Oct. 19 2023]] [Lazy Admin](https://sec-fortress.github.io/posts/thm/posts/lazyadmin.html) `File Disclosure, RCE, Sudo privilege escalation`
 - [[Oct. 19 2023]] [tomghost](https://sec-fortress.github.io/posts/thm/posts/tomghost.html) `File read/inclusion, .pgp/.asc decryption, zip Priv Esc via Sudo`
+- [[Oct. 19 2023]] [Ignite](https://sec-fortress.github.io/posts/thm/posts/Ignite.html) `Fuel CMS RCE, Passowrd in Config file`
 
 
 * * *
