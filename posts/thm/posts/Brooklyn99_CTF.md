@@ -118,7 +118,7 @@ Here is the command to get root with nano
 ```bash
 $ sudo /bin/nano
 
-# Ctrl+R - Ctrl+X
+# Ctrl+R - Ctrl+X - This is a comment
 ^R^X
 
 $ reset; sh 1>&0 2>&0
