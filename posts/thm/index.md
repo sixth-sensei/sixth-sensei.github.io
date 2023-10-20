@@ -45,3 +45,4 @@ Discover CyberSecLabs. With our growing platform delivering beginner hacking con
 - [[Oct. 19 2023]] [tomghost](https://sec-fortress.github.io/posts/thm/posts/tomghost.html) `File read/inclusion, .pgp/.asc decryption, zip Priv Esc via Sudo`
 - [[Oct. 19 2023]] [Ignite](https://sec-fortress.github.io/posts/thm/posts/Ignite.html) `Fuel CMS RCE, Passowrd in Config file`
 - [[Oct. 20 2023]] [Startup](https://sec-fortress.github.io/posts/thm/posts/Startup.html) `FTP file Inclusion, pcapng file analysis, cronjob`
+- [[Oct. 20 2023]] [Brooklyn Nine Nine](https://sec-fortress.github.io/posts/thm/posts/Brooklyn99_CTF) `steganography, sudo privilege escalation`
