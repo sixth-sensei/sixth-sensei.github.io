@@ -46,6 +46,8 @@ Yo 👋, welcome to my Cyber Security Blog! I'm Olaoluwa, an 18-year-old achievi
 - [[Oct. 19 2023]] [Ignite](https://sec-fortress.github.io/posts/thm/posts/Ignite.html) `Fuel CMS RCE, Passowrd in Config file`
 - [[Oct. 20 2023]] [Startup](https://sec-fortress.github.io/posts/thm/posts/Startup.html) `FTP file Inclusion, pcapng file analysis, cronjob`
 - [[Oct. 20 2023]] [Brooklyn Nine Nine](https://sec-fortress.github.io/posts/thm/posts/Brooklyn99_CTF.html) `steganography, sudo privilege escalation`
+- [[Oct. 20 2023]] [Wgel CTF](https://sec-fortress.github.io/posts/thm/posts/Wgel%20CTF.html) `leaked id_rsa, Priv Esc via wget`
+
 
 
 * * *
