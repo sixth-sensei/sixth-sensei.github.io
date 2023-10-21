@@ -296,3 +296,8 @@ $ sudo LD_LIBRARY_PATH=. /usr/sbin/apache2 -f /etc/apache2/apache2.conf -d /etc/
 - first of all bruteforcing cookies was really new to me, i will keep this in my second brain 😂
 - getting root was new to me too, took me almost an hour figuring out that i needed to specify the full command `/usr/sbin/apache2 -f /etc/apache2/apache2.conf -d /etc/apache2` instead of what i do see in public write-ups, just `apache2`
 - This box was a really fun box and shout out to [@markuche](https://twitter.com/0xMarkUche) for putting me through the `nfs` file-read bypass
+
+GG 🤟
+
+<button onclick="window.location.href='https://sec-fortress.github.io';">Back To Home螥</button>
+
