@@ -297,7 +297,16 @@ $ sudo LD_LIBRARY_PATH=. /usr/sbin/apache2 -f /etc/apache2/apache2.conf -d /etc/
 - getting root was new to me too, took me almost an hour figuring out that i needed to specify the full command `/usr/sbin/apache2 -f /etc/apache2/apache2.conf -d /etc/apache2` instead of what i do see in public write-ups, just `apache2`
 - This box was a really fun box and shout out to [@markuche](https://twitter.com/0xMarkUche) for putting me through the `nfs` file-read bypass
 
+### **_Resources Used :_**
+
+- [Link 1](https://systemweakness.com/write-up-brute-forcing-a-stay-logged-in-cookie-portswigger-academy-ae297242af1d)
+- [Link 2](https://atom.hackstreetboys.ph/linux-privilege-escalation-environment-variables/)
+- [Link 3](https://www.linkedin.com/pulse/linux-privilege-escalation-techniques-zakwan-abid)
+
+
 GG 🤟
+
+
 
 <button onclick="window.location.href='https://sec-fortress.github.io';">Back To Home螥</button>
 
