@@ -48,6 +48,7 @@ Yo 👋, welcome to my Cyber Security Blog! I'm Olaoluwa, an 18-year-old achievi
 - [[Oct. 20 2023]] [Brooklyn Nine Nine](https://sec-fortress.github.io/posts/thm/posts/Brooklyn99_CTF.html) `steganography, sudo privilege escalation`
 - [[Oct. 20 2023]] [Wgel CTF](https://sec-fortress.github.io/posts/thm/posts/Wgel%20CTF.html) `leaked id_rsa, Priv Esc via wget`
 - [[Oct. 21 2023]] [Hijack](https://sec-fortress.github.io/posts/thm/posts/Hijack.html) `restricted nfs bypass, rate-limit bypass, cookie bruteforce, LD_LIBRARY_PATH priv esc`
+- [[Oct. 23 2023]] [Year of the Rabbit](https://sec-fortress.github.io/posts/thm/posts/yearoftherabbit.html) `steganography, sudo X vi Priv Esc`
 
 
 
