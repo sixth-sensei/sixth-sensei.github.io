@@ -1,9 +1,10 @@
 # Year of the Rabbit
 
 ***
-[](https://tryhackme-images.s3.amazonaws.com/room-icons/c062ef0e0b4f70e51a2dafc5fc2bca0e.jpeg)
+![](https://tryhackme-images.s3.amazonaws.com/room-icons/c062ef0e0b4f70e51a2dafc5fc2bca0e.jpeg)
 
 ## Difficulty = Easy
+
 ***
 
 Running our nmap scan we have -:
