@@ -186,7 +186,7 @@ $  sudo -u#-1 /usr/bin/vi /home/gwendoline/user.txt
 
 ![](https://i.imgur.com/Tb7Whlt.png)
 
-we can therefore get a root shell by adding **semi-colon** (`:`) and then `!/bin/bash`
+we can therefore get a root shell by adding **semi-colon** (`:`) and then `!/bin/bash` or you can also use `:shell`
 
 ![](https://i.imgur.com/TVsf3qv.png)
 
