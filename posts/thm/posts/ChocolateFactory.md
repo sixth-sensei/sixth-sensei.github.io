@@ -165,6 +165,16 @@ Click enter and you should be user **root**
 
 ![](https://i.imgur.com/73SzmFz.png)
 
+Trying to read the root flag located under `/root/root.py` we have a program to give us the root flag
+
+![](https://i.imgur.com/dOKHV1t.png)
+
+Remember the key **tryhackme** asked us for ??, well use it and you should  get the root flag
+
+![](https://i.imgur.com/Vx1Rtvs.png)
+
+
+
 GG 😎
 
 
