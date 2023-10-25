@@ -49,4 +49,5 @@ Discover CyberSecLabs. With our growing platform delivering beginner hacking con
 - [[Oct. 20 2023]] [Wgel CTF](https://sec-fortress.github.io/posts/thm/posts/Wgel%20CTF.html) `leaked id_rsa, Priv Esc via wget`
 - [[Oct. 21 2023]] [Hijack](https://sec-fortress.github.io/posts/thm/posts/Hijack.html) `restricted nfs bypass, rate-limit bypass, cookie bruteforce, path hijack`
 - [[Oct. 23 2023]] [Year of the Rabbit](https://sec-fortress.github.io/posts/thm/posts/yearoftherabbit.html) `steganography, sudo X vi Priv Esc`
-- [[Oct. 24 2023]] [Lian_Yu](https://sec-fortress.github.io/posts/thm/posts/Lian_Yu.html) `ffuf, steganography, pkexec privilege escalation` 
+- [[Oct. 24 2023]] [Lian_Yu](https://sec-fortress.github.io/posts/thm/posts/Lian_Yu.html) `ffuf, steganography, pkexec privilege escalation`
+- [[Oct. 24 2023]] [Gaming Server](https://sec-fortress.github.io/posts/thm/posts/GamingServer.html) `ssh2john, lxd privilege escalation` 
