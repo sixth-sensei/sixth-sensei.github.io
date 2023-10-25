@@ -50,7 +50,8 @@ Yo 👋, welcome to my Cyber Security Blog! I'm Olaoluwa, an 18-year-old achievi
 - [[Oct. 21 2023]] [Hijack](https://sec-fortress.github.io/posts/thm/posts/Hijack.html) `restricted nfs bypass, rate-limit bypass, cookie bruteforce, LD_LIBRARY_PATH priv esc`
 - [[Oct. 23 2023]] [Year of the Rabbit](https://sec-fortress.github.io/posts/thm/posts/yearoftherabbit.html) `steganography, sudo X vi Priv Esc`
 - [[Oct. 24 2023]] [Lian_Yu](https://sec-fortress.github.io/posts/thm/posts/Lian_Yu.html) `ffuf, steganography, pkexec privilege escalation`
-- [[Oct. 24 2023]] [Gaming Server](https://sec-fortress.github.io/posts/thm/posts/GamingServer.html) `ssh2john, lxd privilege escalation` 
+- [[Oct. 24 2023]] [Gaming Server](https://sec-fortress.github.io/posts/thm/posts/GamingServer.html) `ssh2john, lxd privilege escalation`
+- [[Oct. 25 2023]] [Chocolate Factory](https://sec-fortress.github.io/posts/thm/posts/ChocolateFactory.html) `Command injection, lateral movement, vi privilege escalation`
 
 
 
