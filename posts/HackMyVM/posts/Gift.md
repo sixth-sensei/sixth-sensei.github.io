@@ -64,3 +64,8 @@ As we can see we now have the **root** user password, let go ahead and login via
 .....And we are **root** 🤟
 
 
+<button onclick="window.location.href='https://sec-fortress.github.io';">Back To Home螥</button>
+
+
+
+
