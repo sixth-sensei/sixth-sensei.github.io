@@ -100,6 +100,7 @@ Yo 👋, welcome to my Cyber Security Blog! I'm Olaoluwa, an 18-year-old achievi
 ### **HackMyVM Writeups:~#**
 * * *
 <!-- - [[Feb 16 2023]] [Doorknob](https://markuched13.github.io/posts/echoctf/doorknob.html) `NSE Command Injection, Buffer Overflow, Scripting` -->
+- [[Oct. 27 2023]] [Gift](https://sec-fortress.github.io/posts/HackMyVM/posts/Gift.html) `SSH bruteforce`
 
 * * *
 ### **Live Jeopardy CTF Writeups:~#**
