@@ -9,8 +9,8 @@ title:  HackMyVM.
 ![image](https://sec-fortress.github.io/posts/HackMyVM/images/hackmyvm.png)
 
 * * *
-<h4 class="menu-header" id="picoctf">PicoCTF:</h4>
-Hey there! I'm an avid enthusiast of Jeopardy-style CTF contests like PicoCTF. Solving quick challenges across categories like cryptography, web exploitation, and reverse engineering gives me a refreshing mental boost. Experience the thrill of cybersecurity at its finest by exploring PicoCTF on their website: <font color="green"><strong>https://picoctf.com</strong></font>. Get ready to sharpen your skills and embark on an exciting CTF adventure!
+<h4 class="menu-header" id="hackmyvm">HackMyVM:</h4>
+HackMyVM offers a collection of vulnerable virtual machines for learning and hacking. Users can access over 200 VMs to enhance their skills. They also offer online challenges like pwn, web crypto etc and have online labs ready to SSH into, i will be making a writeup of all HMV machines, labs, challenges i solve here xD, you can lookup their website -: <font color="green"><strong>https://hackmyvm.eu/</strong></font>. Happy Hacking and have fun 😆
 <hr>
 <hr>
 
