@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-<h2 class="mume-header" id="mainindexhtml-nbspnbsp-contactcontacthtml"><a href="./index.html">Root</a>&#xA0;&#xA0;&#xA0; <a href="/posts/thm/index.html">TryHackMe</a>&#xA0;&#xA0;&#xA0;<a href="/posts/htb/index.html">HackTheBox</a>&#xA0;&#xA0;&#xA0;<a href="/posts/ptd/index.html">PwnTillDawn</a>&#xA0;&#xA0;&#xA0;<a href="/posts/pg/index.html">ProvingGrounds</a>&#xA0;&#xA0;&#xA0;<a href="/posts/pico/index.html">PicoCTF</a>&#xA0;&#xA0;&#xA0;<a href="/posts/articles/index.html">Articles</a>&#xA0;&#xA0;&#xA0;<a href="/posts/projects/index.html">Projects</a>&#xA0;&#xA0;&#xA0;</h2>
+<h2 class="mume-header" id="mainindexhtml-nbspnbsp-contactcontacthtml"><a href="./index.html">Root</a>&#xA0;&#xA0;&#xA0; <a href="/posts/thm/index.html">TryHackMe</a>&#xA0;&#xA0;&#xA0;<a href="/posts/htb/index.html">HackTheBox</a>&#xA0;&#xA0;&#xA0;<a href="/posts/ptd/index.html">PwnTillDawn</a>&#xA0;&#xA0;&#xA0;<a href="/posts/pg/index.html">ProvingGrounds</a>&#xA0;&#xA0;&#xA0;<a href="/posts/HackMyVM/index.html">PicoCTF</a>&#xA0;&#xA0;&#xA0;<a href="/posts/articles/index.html">Articles</a>&#xA0;&#xA0;&#xA0;<a href="/posts/projects/index.html">Projects</a>&#xA0;&#xA0;&#xA0;</h2>
 
 * * *
 ### Welcome To My Cyber Security Blog, H4X0R
@@ -97,7 +97,7 @@ Yo 👋, welcome to my Cyber Security Blog! I'm Olaoluwa, an 18-year-old achievi
 - [[Jun 9 2023]] [dc-2](https://sec-fortress.github.io/posts/pg/posts/dc2.html) `GTFOBins, Restricted Environment, Brute forcing`
 
 * * *
-### **PicoCTF Writeups:~#**
+### **HackMyVM Writeups:~#**
 * * *
 <!-- - [[Feb 16 2023]] [Doorknob](https://markuched13.github.io/posts/echoctf/doorknob.html) `NSE Command Injection, Buffer Overflow, Scripting` -->
 
