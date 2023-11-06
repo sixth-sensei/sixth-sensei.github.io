@@ -75,6 +75,7 @@ Yo 👋, welcome to my Cyber Security Blog! I'm Olaoluwa, an 18-year-old achievi
 - [[August 15 2023]] [Cap](https://sec-fortress.github.io/posts/htb/posts/cap.html) `pcap file, FTP, SSH, Capabilities`
 - [[August 15 2023]] [Knife](https://sec-fortress.github.io/posts/htb/posts/knife.html) `PHP 8.1.0-dev, RCE, GTFOBINS`
 - [[August 18 2023]] [Antique](https://sec-fortress.github.io/posts/htb/posts/antique.html) `JetDirect Password Disclosure, Pivoting, Root-File Read`
+- [[Novem. 06 2023]] [Codify](https://sec-fortress.github.io/posts/htb/posts/codify.html) `Node.Js RCE, Lateral movement, Sudo Privilege escalation`
 
 * * *
 ### **PwnTillDawn Writeups:~#**
@@ -103,6 +104,7 @@ Yo 👋, welcome to my Cyber Security Blog! I'm Olaoluwa, an 18-year-old achievi
 <!-- - [[Feb 16 2023]] [Doorknob](https://markuched13.github.io/posts/echoctf/doorknob.html) `NSE Command Injection, Buffer Overflow, Scripting` -->
 - [[Oct. 27 2023]] [Gift](https://sec-fortress.github.io/posts/HackMyVM/posts/Gift.html) `SSH bruteforce`
 - [[Oct. 28 2023]] [Hommie](https://sec-fortress.github.io/posts/HackMyVM/posts/Hommie.html) `UDP tftp, id_rsa, environment variable manipulation`
+- [[Nov. 06 2023]] [Alzheimer](https://sec-fortress.github.io/posts/HackMyVM/posts/alzheimer.html) `Port Knocking, SUID privilege escalation`
 
 * * *
 ### **Live Jeopardy CTF Writeups:~#**
