@@ -116,7 +116,7 @@ fuzzed for parameters, checked file source, tried bruteforcing, Nothing !!!, che
 
 ![](https://i.imgur.com/SRBd1gW.png)
 
-I don't think the box is broken, let move, logged in with the `SSH` credentials as user **medusa**
+I don't think the box is broken, let move, logged in with the `SSH` credentials as user **medusa:ihavebeenalwayshere!!!**
 
 
 ![](https://i.imgur.com/LdOjpae.png)
@@ -146,6 +146,7 @@ Running the payload we are user **root**
 
 
 
+<button onclick="window.location.href='https://sec-fortress.github.io';">Back To Home螥</button>
 
 
 
