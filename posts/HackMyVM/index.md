@@ -21,3 +21,4 @@ HackMyVM offers a collection of vulnerable virtual machines for learning and hac
 - [[Mar 02 2023]] [Hairsplit](https://github.com/markuched13/markuched13.github.io/blob/main/posts/echoctf/hairsplit.md) `API` -->
 - [[Oct. 27 2023]] [Gift](https://sec-fortress.github.io/posts/HackMyVM/posts/Gift.html) `SSH bruteforce`
 - [[Oct. 28 2023]] [Hommie](https://sec-fortress.github.io/posts/HackMyVM/posts/Hommie.html) `UDP tftp, id_rsa, environment variable manipulation`
+- [[Nov. 06 2023]] [Alzheimer](https://sec-fortress.github.io/posts/HackMyVM/posts/alzheimer.html `Port Knocking, SUID privilege escalation`
