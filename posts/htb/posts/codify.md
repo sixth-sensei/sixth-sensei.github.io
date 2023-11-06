@@ -100,7 +100,7 @@ We can therefore switch user to **joshua** with the `su` command
 ![](https://i.imgur.com/yHCFGqW.png)
 
 
-Running `sudo -l` we have permissions to run `/opt/scripts/mysql_backup.sh` with sudo permissions
+Running `sudo -l` we have permissions to run `/opt/scripts/mysql-backup.sh` with sudo permissions
 
 
 ![](https://i.imgur.com/hMeg5hn.png)
