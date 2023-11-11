@@ -11,11 +11,9 @@ plugins:
   - jekyll-coffeescript
   - jekyll-seo-tag
   - some-other-jekyll-plugin
-  - jekyll-scholar
   
 gems:
   - jekyll-sitemap
-  - jekyll-scholar
 
 whitelist:
   - jekyll-sitemap
