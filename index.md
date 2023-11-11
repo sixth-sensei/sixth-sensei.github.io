@@ -7,6 +7,7 @@ title: Home
 
 * * *
 
+
 ### Welcome To My Cyber Security Blog, H4X0R       <a href="https://www.buymeacoffee.com/Secfortress"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me an OSCP&emoji=&slug=Secfortress&button_colour=FFDD00&font_colour=000000&font_family=Arial&outline_colour=000000&coffee_colour=ffffff" /></a>
 * * *
 
