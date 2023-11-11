@@ -1,7 +1,7 @@
 theme: jekyll-theme-hacker
 title: sec👨‍💻fortress:~$
 description: Offensive for Defensive!.
-show_downloads: false
+show_downloads: true
 show_repo: false
 
 safe: true
