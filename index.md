@@ -6,7 +6,7 @@ title: Home
 <h2 class="mume-header" id="mainindexhtml-nbspnbsp-contactcontacthtml"><a href="./index.html">Root</a>&#xA0;&#xA0;&#xA0; <a href="/posts/thm/index.html">TryHackMe</a>&#xA0;&#xA0;&#xA0;<a href="/posts/htb/index.html">HackTheBox</a>&#xA0;&#xA0;&#xA0;<a href="/posts/ptd/index.html">PwnTillDawn</a>&#xA0;&#xA0;&#xA0;<a href="/posts/pg/index.html">ProvingGrounds</a>&#xA0;&#xA0;&#xA0;<a href="/posts/HackMyVM/index.html">HackMyVM</a>&#xA0;&#xA0;&#xA0;<a href="/posts/articles/index.html">Articles</a>&#xA0;&#xA0;&#xA0;<a href="/posts/projects/index.html">Projects</a>&#xA0;&#xA0;&#xA0;</h2>
 
 * * *
-### Welcome To My Cyber Security Blog, H4X0R <a href="https://www.buymeacoffee.com/Secfortress"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me an OSCP&emoji=&slug=Secfortress&button_colour=FFDD00&font_colour=000000&font_family=Arial&outline_colour=000000&coffee_colour=ffffff" /></a>
+### Welcome To My Cyber Security Blog, H4X0R 
 * * *
 
 <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="Secfortress" data-description="Support me on Buy me a coffee!" data-message="Buy me an OSCP" data-color="#FF5F5F" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
