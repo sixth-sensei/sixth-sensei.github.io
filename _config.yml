@@ -15,6 +15,7 @@ plugins:
   
 gems:
   - jekyll-sitemap
+  - jekyll-scholar
 
 whitelist:
   - jekyll-sitemap
