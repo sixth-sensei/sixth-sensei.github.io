@@ -9,6 +9,8 @@ title: Home
 ### Welcome To My Cyber Security Blog, H4X0R <a href="https://www.buymeacoffee.com/Secfortress"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me an OSCP&emoji=&slug=Secfortress&button_colour=FFDD00&font_colour=000000&font_family=Arial&outline_colour=000000&coffee_colour=ffffff" /></a>
 * * *
 
+<script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="Secfortress" data-description="Support me on Buy me a coffee!" data-message="Buy me an OSCP" data-color="#FF5F5F" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
+
 Yo 👋, welcome to my Cyber Security Blog! I'm Olaoluwa, an 18-year-old achieving senior penetration tester. I post different hacking tricks, writeups, articles, and anything related to hacking that I learn 0x...
 
 * * *
