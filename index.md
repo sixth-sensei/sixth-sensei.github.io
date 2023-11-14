@@ -14,7 +14,6 @@ title: Home
 
 Yo 👋, welcome to my Cyber Security Blog! I'm Olaoluwa, an 18-year-old achieving senior penetration tester. I post different hacking tricks, writeups, articles, and anything related to hacking that I learn 0x...
 
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -54,8 +53,8 @@ Yo 👋, welcome to my Cyber Security Blog! I'm Olaoluwa, an 18-year-old achievi
 
     <script>
         function downloadResume() {
-            // Replace 'https://github.com/sec-fortress/sec-fortress/blob/main/Olaoluwa'_s_CV.pdf' with the actual Google Docs link
-            var resumeLink = 'https://drive.google.com/your_google_doc_link';
+            // Replace '' with the actual Google Docs link
+            var resumeLink = 'https://drive.google.com/file/d/1PuQCkciMtMDL3tw2umKEo7FCN-T6rp3N/view?usp=drive_link';
 
             // Create an invisible anchor element
             var link = document.createElement('a');
@@ -75,8 +74,8 @@ Yo 👋, welcome to my Cyber Security Blog! I'm Olaoluwa, an 18-year-old achievi
         }
 
         function viewResume() {
-            // Replace 'https://github.com/sec-fortress/sec-fortress/blob/main/Olaoluwa'_s_CV.pdf' with the actual Google Docs link
-            var resumeLink = 'https://drive.google.com/your_google_doc_link';
+            // Replace '' with the actual Google Docs link
+            var resumeLink = 'https://drive.google.com/file/d/1PuQCkciMtMDL3tw2umKEo7FCN-T6rp3N/view?usp=drive_link';
 
             // Open the resume in a new browser tab or window
             window.open(resumeLink, '_blank');
