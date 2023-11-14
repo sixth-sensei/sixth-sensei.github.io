@@ -76,7 +76,7 @@ Yo 👋, welcome to my Cyber Security Blog! I'm Olaoluwa, an 18-year-old achievi
 
         function viewResume() {
             // Replace 'path/to/your/resume.pdf' with the actual path to your resume file
-            var resumePath = 'path/to/your/resume.pdf';
+            var resumePath = 'https://github.com/sec-fortress/sec-fortress/blob/main/Olaoluwa'_s_CV.pdf';
 
             // Open the resume in a new browser tab or window
             window.open(resumePath, '_blank');
