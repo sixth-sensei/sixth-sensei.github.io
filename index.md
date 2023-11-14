@@ -11,14 +11,16 @@ title: Home
 
 <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="Secfortress" data-description="Support me on Buy me a coffee!" data-message="Buy me an OSCP" data-color="#FF5F5F" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
 
-<!DOCTYPE html>
+
+Yo 👋, welcome to my Cyber Security Blog! I'm Olaoluwa, an 18-year-old achieving senior penetration tester. I post different hacking tricks, writeups, articles, and anything related to hacking that I learn 0x...
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Website</title>
     <style>
-        /* Optional: Add some basic styling to the button */
+        /* Optional: Add some basic styling to the buttons */
         .resume-button {
             display: inline-block;
             padding: 10px 20px;
@@ -26,7 +28,18 @@ title: Home
             text-align: center;
             text-decoration: none;
             cursor: pointer;
+            margin-right: 10px;
+        }
+
+        .download-button {
             background-color: #4CAF50;
+            color: #ffffff;
+            border: none;
+            border-radius: 5px;
+        }
+
+        .view-button {
+            background-color: #007BFF;
             color: #ffffff;
             border: none;
             border-radius: 5px;
@@ -35,8 +48,9 @@ title: Home
 </head>
 <body>
 
-    <!-- Add the following code to create a button for downloading your resume -->
-    <button class="resume-button" onclick="downloadResume()">Download Resume</button>
+    <!-- Add the following code to create buttons for downloading and viewing your resume -->
+    <button class="resume-button download-button" onclick="downloadResume()">Download Resume</button>
+    <button class="resume-button view-button" onclick="viewResume()">View Resume</button>
 
     <script>
         function downloadResume() {
@@ -59,14 +73,18 @@ title: Home
             // Remove the anchor element from the document
             document.body.removeChild(link);
         }
+
+        function viewResume() {
+            // Replace 'path/to/your/resume.pdf' with the actual path to your resume file
+            var resumePath = 'path/to/your/resume.pdf';
+
+            // Open the resume in a new browser tab or window
+            window.open(resumePath, '_blank');
+        }
     </script>
 
 </body>
 </html>
-
-
-
-Yo 👋, welcome to my Cyber Security Blog! I'm Olaoluwa, an 18-year-old achieving senior penetration tester. I post different hacking tricks, writeups, articles, and anything related to hacking that I learn 0x...
 
 * * *
 ### Whoami:~#
