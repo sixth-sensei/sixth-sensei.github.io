@@ -11,6 +11,60 @@ title: Home
 
 <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="Secfortress" data-description="Support me on Buy me a coffee!" data-message="Buy me an OSCP" data-color="#FF5F5F" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website</title>
+    <style>
+        /* Optional: Add some basic styling to the button */
+        .resume-button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: #ffffff;
+            border: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Add the following code to create a button for downloading your resume -->
+    <button class="resume-button" onclick="downloadResume()">Download Resume</button>
+
+    <script>
+        function downloadResume() {
+            // Replace 'path/to/your/resume.pdf' with the actual path to your resume file
+            var resumePath = 'path/to/your/resume.pdf';
+
+            // Create an invisible anchor element
+            var link = document.createElement('a');
+            link.href = resumePath;
+
+            // Set the download attribute to specify the filename
+            link.download = 'YourResume.pdf';
+
+            // Append the anchor element to the document
+            document.body.appendChild(link);
+
+            // Trigger a click event on the anchor element
+            link.click();
+
+            // Remove the anchor element from the document
+            document.body.removeChild(link);
+        }
+    </script>
+
+</body>
+</html>
+
+
 
 Yo 👋, welcome to my Cyber Security Blog! I'm Olaoluwa, an 18-year-old achieving senior penetration tester. I post different hacking tricks, writeups, articles, and anything related to hacking that I learn 0x...
 
