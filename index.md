@@ -14,11 +14,11 @@ title: Home
 
 Yo 👋, welcome to my Cyber Security Blog! I'm Olaoluwa, an 18-year-old achieving senior penetration tester. I post different hacking tricks, writeups, articles, and anything related to hacking that I learn 0x...
 
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Website</title>
     <style>
         /* Optional: Add some basic styling to the buttons */
         .resume-button {
@@ -54,12 +54,12 @@ Yo 👋, welcome to my Cyber Security Blog! I'm Olaoluwa, an 18-year-old achievi
 
     <script>
         function downloadResume() {
-            // Replace 'path/to/your/resume.pdf' with the actual path to your resume file
-            var resumePath = 'path/to/your/resume.pdf';
+            // Replace 'https://github.com/sec-fortress/sec-fortress/blob/main/Olaoluwa'_s_CV.pdf' with the actual Google Docs link
+            var resumeLink = 'https://drive.google.com/your_google_doc_link';
 
             // Create an invisible anchor element
             var link = document.createElement('a');
-            link.href = resumePath;
+            link.href = resumeLink;
 
             // Set the download attribute to specify the filename
             link.download = 'YourResume.pdf';
@@ -75,11 +75,11 @@ Yo 👋, welcome to my Cyber Security Blog! I'm Olaoluwa, an 18-year-old achievi
         }
 
         function viewResume() {
-            // Replace 'path/to/your/resume.pdf' with the actual path to your resume file
-            var resumePath = 'https://github.com/sec-fortress/sec-fortress/blob/main/Olaoluwa'_s_CV.pdf';
+            // Replace 'https://github.com/sec-fortress/sec-fortress/blob/main/Olaoluwa'_s_CV.pdf' with the actual Google Docs link
+            var resumeLink = 'https://drive.google.com/your_google_doc_link';
 
             // Open the resume in a new browser tab or window
-            window.open(resumePath, '_blank');
+            window.open(resumeLink, '_blank');
         }
     </script>
 
