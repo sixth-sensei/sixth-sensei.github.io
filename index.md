@@ -28,6 +28,10 @@ Yo 👋, welcome to my Cyber Security Blog! I'm Olaoluwa, an 18-year-old achievi
             text-decoration: none;
             cursor: pointer;
             margin-right: 10px;
+            background-color: #4CAF50; /* Green color */
+            color: #ffffff; /* White text color */
+            border: none;
+            border-radius: 5px;
         }
 
         .download-button {
