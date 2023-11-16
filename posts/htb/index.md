@@ -70,3 +70,4 @@ The Hack The Box platform provides a wealth of challenges - in the form of virtu
 - [[August 15 2023]] [Knife](https://sec-fortress.github.io/posts/htb/posts/knife.html) `PHP 8.1.0-dev, RCE, GTFOBINS`
 - [[August 18 2023]] [Antique](https://sec-fortress.github.io/posts/htb/posts/antique.html) `JetDirect Password Disclosure, Pivoting, Root-File Read`
 <!-- - [[Novem. 06 2023]] [Codify](https://sec-fortress.github.io/posts/htb/posts/codify.html) `Node.Js RCE, Lateral movement, Sudo Privilege escalation` -->
+- [[Septe. 14 2023]] [Broker](https://sec-fortress.github.io/posts/htb/posts/Broker.html) `ActiveMQ RCE(CVE-2023-46604), Nginx file read`
