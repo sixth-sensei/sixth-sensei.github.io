@@ -108,7 +108,7 @@ Navigating to the **content** tab and clicking **Files** we where able to upload
 ![](https://i.imgur.com/DqDBUKG.png)
 
 
-Our PHP web shell was uploaded to `/textpattern/files` called `good.php`, you can find one from www.revshells.com
+Our PHP web shell was uploaded to `/textpattern/files` called `good.php`, you can find one from [www.revshells.com](www.revshells.com)
 
 
 ![](https://i.imgur.com/C40LrEu.png)
