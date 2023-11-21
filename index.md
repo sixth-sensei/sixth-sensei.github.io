@@ -135,6 +135,7 @@ Yo 👋, welcome to my Cyber Security Blog! I'm Olaoluwa, an 18-year-old achievi
 - [[Sept. 06 2023]] [Stuntman Mike](https://sec-fortress.github.io/posts/ptd/posts/Stuntman%20Mike.html) `SSH Brute force, Sudo Privilege Escalation`
 - [[Sept. 16 2023]] [Junior Dev](https://sec-fortress.github.io/posts/ptd/posts/JuniorDev.html) `Bruteforcing, Jenkins RCE, Pivoting, Python Command Injection`
 - [[Nov. 06 2023]] [ElMariachi-PC](https://sec-fortress.github.io/posts/ptd/posts/ElMariachi-PC.html) `ThinVNC Authentication Bypass, RDP`
+- [[Nov. 06 2023]] [Silence](https://sec-fortress.github.io/posts/ptd/posts/Silence.html) `LFI, Enumeration, Loops, Sudo Privilege Escalation`
 
 * * *
 ### **ProvingGrounds Writeups:~#**
