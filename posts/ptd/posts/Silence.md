@@ -235,7 +235,7 @@ That will be all for today, Have a nice week 👨‍💻
 
 
 
-[](https://i.pinimg.com/originals/79/7f/34/797f347cc1b437839cd21b44aa6fde96.gif)
+![](https://i.pinimg.com/originals/79/7f/34/797f347cc1b437839cd21b44aa6fde96.gif)
 
 
 
