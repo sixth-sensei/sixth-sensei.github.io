@@ -72,4 +72,5 @@ The Hack The Box platform provides a wealth of challenges - in the form of virtu
 - [[Sep. 14 2023]] [Broker](https://sec-fortress.github.io/posts/htb/posts/Broker.html) `ActiveMQ RCE(CVE-2023-46604), Nginx file read`
 
   
-<!-- - [[Nov. 06 2023]] [Codify](https://sec-fortress.github.io/posts/htb/posts/codify.html) `Node.Js RCE, Lateral movement, Sudo Privilege escalation` -->
+<!-- - [[Nov. 06 2023]] [Codify](https://sec-fortress.github.io/posts/htb/posts/codify.html) `Node.Js RCE, Lateral movement, Sudo Privilege escalation`
+- [[Nov. 21 2023]] [Hospital](https://sec-fortress.github.io/posts/htb/posts/Hospital.html) `File Upload = RCE, OverlayFS, Lateral Movement, Admin creds exposure` -->
