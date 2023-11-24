@@ -60,16 +60,16 @@ The Hack The Box platform provides a wealth of challenges - in the form of virtu
 - [[May 19 2023]] [Three](https://h4ckyou.github.io/posts/htb/posts/three.html) `Enumeration, AWS, RCE`
 - [[June 9 2023]] [Format](https://h4ckyou.github.io/posts/htb/posts/format.html) `Source Code Analysis, File Inclusion, Nginx Misconfiguration, Redis, Python Format String Vulnerability`
 - [[June 9 2023]] [Updown](https://h4ckyou.github.io/posts/htb/posts/updown.html) -->
-- [[August 7 2023]] [irked](https://sec-fortress.github.io/posts/htb/posts/irked.html) `Enumeration, IRCD, Steganography`
-- [[August 10 2023]] [Templated](https://sec-fortress.github.io/posts/htb/posts/templated.html) `Flask, SSTI, RCE`
-- [[August 10 2023]] [Phonebook](https://sec-fortress.github.io/posts/htb/posts/phonebook.html) `LDAP, Bruteforcing`
-- [[August 11 2023]] [Bounty Hunter](https://sec-fortress.github.io/posts/htb/posts/bountyhunter.html) `XXE injection, Python Privilege Escalation`
-- [[August 11 2023]] [Valentine](https://sec-fortress.github.io/posts/htb/posts/valentine.html) `CVE-2014-0160, SSH, Tmux Priv_Esc`
-- [[August 12 2023]] [Precious](https://sec-fortress.github.io/posts/htb/posts/precious.html) `exiftool, ruby, Insecure Deserialization`
-- [[August 15 2023]] [Cap](https://sec-fortress.github.io/posts/htb/posts/cap.html) `pcap file, FTP, SSH, Capabilities`
-- [[August 15 2023]] [Knife](https://sec-fortress.github.io/posts/htb/posts/knife.html) `PHP 8.1.0-dev, RCE, GTFOBINS`
-- [[August 18 2023]] [Antique](https://sec-fortress.github.io/posts/htb/posts/antique.html) `JetDirect Password Disclosure, Pivoting, Root-File Read`
-- [[Septe. 14 2023]] [Broker](https://sec-fortress.github.io/posts/htb/posts/Broker.html) `ActiveMQ RCE(CVE-2023-46604), Nginx file read`
+- [[Aug. 7 2023]] [irked](https://sec-fortress.github.io/posts/htb/posts/irked.html) `Enumeration, IRCD, Steganography`
+- [[Aug. 10 2023]] [Templated](https://sec-fortress.github.io/posts/htb/posts/templated.html) `Flask, SSTI, RCE`
+- [[Aug. 10 2023]] [Phonebook](https://sec-fortress.github.io/posts/htb/posts/phonebook.html) `LDAP, Bruteforcing`
+- [[Aug. 11 2023]] [Bounty Hunter](https://sec-fortress.github.io/posts/htb/posts/bountyhunter.html) `XXE injection, Python Privilege Escalation`
+- [[Aug. 11 2023]] [Valentine](https://sec-fortress.github.io/posts/htb/posts/valentine.html) `CVE-2014-0160, SSH, Tmux Priv_Esc`
+- [[Aug. 12 2023]] [Precious](https://sec-fortress.github.io/posts/htb/posts/precious.html) `exiftool, ruby, Insecure Deserialization`
+- [[Aug. 15 2023]] [Cap](https://sec-fortress.github.io/posts/htb/posts/cap.html) `pcap file, FTP, SSH, Capabilities`
+- [[Aug. 15 2023]] [Knife](https://sec-fortress.github.io/posts/htb/posts/knife.html) `PHP 8.1.0-dev, RCE, GTFOBINS`
+- [[Aug. 18 2023]] [Antique](https://sec-fortress.github.io/posts/htb/posts/antique.html) `JetDirect Password Disclosure, Pivoting, Root-File Read`
+- [[Sep. 14 2023]] [Broker](https://sec-fortress.github.io/posts/htb/posts/Broker.html) `ActiveMQ RCE(CVE-2023-46604), Nginx file read`
 
   
-<!-- - [[Novem. 06 2023]] [Codify](https://sec-fortress.github.io/posts/htb/posts/codify.html) `Node.Js RCE, Lateral movement, Sudo Privilege escalation` -->
+<!-- - [[Nov. 06 2023]] [Codify](https://sec-fortress.github.io/posts/htb/posts/codify.html) `Node.Js RCE, Lateral movement, Sudo Privilege escalation` -->
