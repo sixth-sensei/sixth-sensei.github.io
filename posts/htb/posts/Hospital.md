@@ -354,3 +354,14 @@ C:\Users\Administrator\Desktop
 
 - Would say am not really that good at solving windows boxes, so if you have any opinions, feel free to reach out, thanks 💌
 
+
+
+
+<button onclick="window.location.href='https://sec-fortress.github.io';">Back To Home螥</button>
+
+
+
+
+
+
+
