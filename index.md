@@ -133,17 +133,17 @@ Yo 👋, welcome to my Cyber Security Blog! I'm Olaoluwa, an 18-year-old achievi
 - [[Feb 12 2023]] [HollyWood](https://markuched13.github.io/posts/ptd/hollywood.html) `ActiveMQ`
 - [[Feb 12 2023]] [MrBlue](https://markuched13.github.io/posts/ptd/mrblue.html) `Eternal Blue (MS17-010)`
 - [[Feb 12 2023]] [IAmGroot](https://markuched13.github.io/posts/ptd/groot.html) `[Not Authorized]` -->
-- [[July 028 2023]] [Mr. Blue](https://sec-fortress.github.io/posts/ptd/posts/Mr.Blue.html) `MS017-010, Eternal Blue, Manual Exploitation`
-- [[Sept. 04 2023]] [Morty](https://sec-fortress.github.io/posts/ptd/posts/morty.html) `Steganography, PhpMyAdmin 4.8.1, RCE`
-- [[Sept. 06 2023]] [Stuntman Mike](https://sec-fortress.github.io/posts/ptd/posts/Stuntman%20Mike.html) `SSH Brute force, Sudo Privilege Escalation`
-- [[Sept. 16 2023]] [Junior Dev](https://sec-fortress.github.io/posts/ptd/posts/JuniorDev.html) `Bruteforcing, Jenkins RCE, Pivoting, Python Command Injection`
+- [[Jul. 028 2023]] [Mr. Blue](https://sec-fortress.github.io/posts/ptd/posts/Mr.Blue.html) `MS017-010, Eternal Blue, Manual Exploitation`
+- [[Sep. 04 2023]] [Morty](https://sec-fortress.github.io/posts/ptd/posts/morty.html) `Steganography, PhpMyAdmin 4.8.1, RCE`
+- [[Sep. 06 2023]] [Stuntman Mike](https://sec-fortress.github.io/posts/ptd/posts/Stuntman%20Mike.html) `SSH Brute force, Sudo Privilege Escalation`
+- [[Sep. 16 2023]] [Junior Dev](https://sec-fortress.github.io/posts/ptd/posts/JuniorDev.html) `Bruteforcing, Jenkins RCE, Pivoting, Python Command Injection`
 - [[Nov. 06 2023]] [ElMariachi-PC](https://sec-fortress.github.io/posts/ptd/posts/ElMariachi-PC.html) `ThinVNC Authentication Bypass, RDP`
 - [[Nov. 06 2023]] [Silence](https://sec-fortress.github.io/posts/ptd/posts/Silence.html) `LFI, Enumeration, Loops, Sudo Privilege Escalation`
 
 * * *
 ### **ProvingGrounds Writeups:~#**
 * * *
-- [[Jun 9 2023]] [dc-2](https://sec-fortress.github.io/posts/pg/posts/dc2.html) `GTFOBins, Restricted Environment, Brute forcing`
+- [[Jun. 9 2023]] [dc-2](https://sec-fortress.github.io/posts/pg/posts/dc2.html) `GTFOBins, Restricted Environment, Brute forcing`
 
 * * *
 ### **HackMyVM Writeups:~#**
@@ -158,7 +158,7 @@ Yo 👋, welcome to my Cyber Security Blog! I'm Olaoluwa, an 18-year-old achievi
 ### **Live Jeopardy CTF Writeups:~#**
 * * *
 <!-- - [[Feb 16 2023]] [Doorknob](https://markuched13.github.io/posts/echoctf/doorknob.html) `NSE Command Injection, Buffer Overflow, Scripting` -->
-- [[Aug 27 2023]] [Ecowas CTF](https://sec-fortress.github.io/posts/articles/posts/ecowasctf.html)
+- [[Aug. 27 2023]] [Ecowas CTF](https://sec-fortress.github.io/posts/articles/posts/ecowasctf.html)
 
 * * *
 
