@@ -128,3 +128,8 @@ Hell yeah, we got reverse shell as user **root**
 
 ![](https://i.imgur.com/cC4hfAQ.png)
 
+
+<button onclick="window.location.href='https://sec-fortress.github.io';">Back To Home螥</button>
+
+
+
