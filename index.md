@@ -34,12 +34,6 @@ Yo 👋, welcome to my Cyber Security Blog! I'm Olaoluwa, an 18-year-old achievi
         }
     </style>
 
-
-* * *
-### Whoami:~#
-* * *
-
-- 
 <body>
 
     <!-- Add the following code to create a button for viewing your resume -->
@@ -57,6 +51,11 @@ Yo 👋, welcome to my Cyber Security Blog! I'm Olaoluwa, an 18-year-old achievi
 
 </body>
 
+
+
+* * *
+### Whoami:~#
+* * *
 
 * * *
 ### **TryHackMe Writeups:~#**
