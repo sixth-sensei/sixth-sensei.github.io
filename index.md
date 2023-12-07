@@ -31,7 +31,9 @@ Yo 👋, welcome to my Cyber Security Blog! I'm Olaoluwa, an 18-year-old achievi
             color: #ffffff; /* White text color */
             border: none;
             border-radius: 5px;
-        }
+       }
+</html>        
+</head>        
     </style>
 
 <body>
@@ -56,6 +58,8 @@ Yo 👋, welcome to my Cyber Security Blog! I'm Olaoluwa, an 18-year-old achievi
 * * *
 ### Whoami:~#
 * * *
+
+
 
 * * *
 ### **TryHackMe Writeups:~#**
