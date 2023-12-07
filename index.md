@@ -59,13 +59,25 @@ Yo 👋, welcome to my Cyber Security Blog! I'm Olaoluwa, an 18-year-old achievi
 ### Whoami:~#
 * * *
 
-- **My Name:** `Olakojo Olaoluwa`
-- **Also Known As:** `sec-fortress`
-- **What Do I Do:** `CTF // Ethical Hacking // Scripting`
-- **Twitter:** [Twitter/@sec_fortress](https://twitter.com/sec_fortress)
-- **YouTube:** [YouTube/@sec-fortress](https://youtube.com/@sec-fortress)
-- **LinkedIn:** [LinkedIn/@sec-fortress](https://www.linkedin.com/in/sci-sec)
-- **View My [PortFolio](https://sec-fortress.github.io/portfolio/)**
+- </head>
+<body>
+
+    <!-- Add the following code to create a button for viewing your resume -->
+    <button class="resume-button" onclick="viewResume()">View Portfolio</button>
+
+    <script>
+        function viewResume() {
+            // Replace 'https://drive.google.com/your_google_doc_link' with the actual Google Docs link
+            var resumeLink = 'https://sec-fortress.github.io/portfolio/';
+
+            // Open the resume in a new browser tab or window
+            window.open(resumeLink, '_blank');
+        }
+    </script>
+
+</body>
+</html>
+
 
 * * *
 ### **TryHackMe Writeups:~#**
