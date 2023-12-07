@@ -14,46 +14,6 @@ title: Home
 
 Yo 👋, welcome to my Cyber Security Blog! I'm Olaoluwa, an 18-year-old achieving senior penetration tester. I post different hacking tricks, writeups, articles, and anything related to hacking that I learn 0x...
 
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        /* Optional: Add some basic styling to the button */
-        .resume-button {
-            display: inline-block;
-            padding: 10px 20px;
-            font-size: 16px;
-            text-align: center;
-            text-decoration: none;
-            cursor: pointer;
-            background-color: #4CAF50; /* Green color */
-            color: #ffffff; /* White text color */
-            border: none;
-            border-radius: 5px;
-       }
-</html>        
-</head>        
-    </style>
-
-<body>
-
-    <!-- Add the following code to create a button for viewing your resume -->
-    <button class="resume-button" onclick="viewResume()">View Portfolio</button>
-
-    <script>
-        function viewResume() {
-            // Replace 'https://drive.google.com/your_google_doc_link' with the actual Google Docs link
-            var resumeLink = 'https://sec-fortress.github.io/portfolio/';
-
-            // Open the resume in a new browser tab or window
-            window.open(resumeLink, '_blank');
-        }
-    </script>
-
-</body>
-
-
 
 * * *
 ### Whoami:~#
