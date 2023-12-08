@@ -145,8 +145,7 @@ wget  127.0.0.1:1337/root/root.txt
 Have fun 🤟
 
 
-![Uploading file...y2w2r]()
-
+![](https://i.imgur.com/3ES6NRC.png)
 
 
 <button onclick="window.location.href='https://sec-fortress.github.io';">Back To Home螥</button>
