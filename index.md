@@ -11,7 +11,7 @@ title: Home
 ### Whoami:~#
 * * *
 
-Yo 👋, welcome to my Cyber Security Blog! I'm Olaoluwa, an 18-year-old achieving senior penetration tester. I post different hacking tricks, writeups, articles, and anything related to hacking that I learn 0x...
+Yo 👋, welcome to my Cyber Security Blog! I'm Olaoluwa, an 18-year-old achieving senior penetration tester. I post different hacking tricks, writeups, articles, and anything related to hacking that I learn 0x, You can also view my **[portfolio](https://sec-fortress.github.io)**, Fully Optimized for Desktop Only 🖥️...
 
 
 * * *
@@ -71,10 +71,8 @@ Yo 👋, welcome to my Cyber Security Blog! I'm Olaoluwa, an 18-year-old achievi
 - [[Sep. 14 2023]] [Broker](https://sec-fortress.github.io/posts/htb/posts/Broker.html) `ActiveMQ RCE(CVE-2023-46604), Nginx file read`
 - [[Nov. 14 2023]] [Lame](https://sec-fortress.github.io/posts/htb/posts/lame.html) `Username Command execution, Manual exploit`
 - [[Nov. 22 2023]] [Beep](https://sec-fortress.github.io/posts/htb/posts/beep.html) `curl, Elastix LFI`
-
-
-<!-- - [[Nov. 06 2023]] [Codify](https://sec-fortress.github.io/posts/htb/posts/codify.html) `Node.Js RCE, Lateral movement, Sudo Privilege escalation`
-- [[Nov. 21 2023]] [Hospital](https://sec-fortress.github.io/posts/htb/posts/Hospital.html) `File Upload = RCE, OverlayFS, Lateral Movement, Admin creds exposure` -->
+- [[Nov. 06 2023]] [Codify](https://sec-fortress.github.io/posts/htb/posts/codify.html) `Node.Js RCE, Lateral movement, Sudo Privilege escalation`
+- [[Nov. 21 2023]] [Hospital](https://sec-fortress.github.io/posts/htb/posts/Hospital.html) `File Upload = RCE, OverlayFS, Lateral Movement, Admin creds exposure`
 
 * * *
 ### **PwnTillDawn Writeups:~#**
