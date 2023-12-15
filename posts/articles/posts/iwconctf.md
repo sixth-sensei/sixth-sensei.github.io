@@ -1,6 +1,6 @@
-# **IWCONCTF 2023**
+![image](https://github.com/sec-fortress/sec-fortress.github.io/assets/132317714/a55807ea-5dc3-40b1-b147-0494f6ab496f)# **IWCONCTF 2023**
 
-In the heart of the digital battleground, our team (**Sacred shell**) embarked on a thrilling adventure at the inaugural IWCONCTF 2023. Amongst 138 formidable contenders, we proudly secured the 37th spot—a testament to our dedication and prowess in the world of cybersecurity challenges, I am happy i was able to lead the team with the highes score as this a great CTF and i learnt alot too, Here is a writeup i made on each challenges i solved
+IWCON CTF 2023, is the first ever CTF hosted by [**IWCON**](https://iwcon.live/). Me and my team [**@SacredShell**](https://ctftime.org/team/222957) manage to secure 37th place out of 138 teams, This is a huge opportunity for me as i was able to carry the team as a **captain** and learnt alot also, through various challenges. Here is adetailed writeup of all challenges i solved
 
 ![image](https://github.com/sec-fortress/sec-fortress.github.io/assets/132317714/968c0310-b650-4687-af01-ab6fdfaa960f)
 
@@ -310,6 +310,13 @@ We can then get the flag since it is in `base64`
 ![](https://i.imgur.com/SaFNfeH.png)
 
 ### **QueueAre**
+
+
+
+
+![image](https://github.com/sec-fortress/sec-fortress.github.io/assets/132317714/30d407e6-586f-417d-a219-00f33a6c6f2e)
+
+
 
 
 <button onclick="window.location.href='https://sec-fortress.github.io';">Back To Home螥</button>
