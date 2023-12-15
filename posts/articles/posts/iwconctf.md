@@ -5,7 +5,6 @@ In the heart of the digital battleground, our team (**Sacred shell**) embarked o
 ![image](https://github.com/sec-fortress/sec-fortress.github.io/assets/132317714/968c0310-b650-4687-af01-ab6fdfaa960f)
 
 
-
 # **Warmup**
 
 
@@ -311,5 +310,10 @@ We can then get the flag since it is in `base64`
 ![](https://i.imgur.com/SaFNfeH.png)
 
 ### **QueueAre**
+
+
+<button onclick="window.location.href='https://sec-fortress.github.io';">Back To Home螥</button>
+
+
 
 
