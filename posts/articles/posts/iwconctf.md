@@ -1,6 +1,6 @@
-![image](https://github.com/sec-fortress/sec-fortress.github.io/assets/132317714/a55807ea-5dc3-40b1-b147-0494f6ab496f)# **IWCONCTF 2023**
+# **IWCONCTF 2023**
 
-IWCON CTF 2023, is the first ever CTF hosted by [**IWCON**](https://iwcon.live/). Me and my team [**@SacredShell**](https://ctftime.org/team/222957) manage to secure 37th place out of 138 teams, This is a huge opportunity for me as i was able to carry the team as a **captain** and learnt alot also, through various challenges. Here is adetailed writeup of all challenges i solved
+IWCON CTF 2023, is the first ever CTF hosted by [**IWCON**](https://iwcon.live/). Me and my team [**@SacredShell**](https://ctftime.org/team/222957) manage to secure 37th place out of 138 teams, This is a huge opportunity for me as i was able to carry the team as a **captain** and learnt alot also, through various challenges. Here is a detailed writeup of all challenges i solved 😆
 
 ![image](https://github.com/sec-fortress/sec-fortress.github.io/assets/132317714/968c0310-b650-4687-af01-ab6fdfaa960f)
 
