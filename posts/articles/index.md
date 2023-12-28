@@ -29,3 +29,4 @@ Hacking cheatsheet/Blogs....
 - [[Oct 17 2023]] [Newly Discovered Zero-Day Attacks](https://sec-fortress.github.io/posts/articles/posts/NDZDA-2023-17-Oct.html) `Zero-Day's, Senselearner, Internship`
 - [[Oct 17 2023]] [Zero-Day Attack Explained](https://sec-fortress.github.io/posts/articles/posts/Zero-day%20explained.html) `Zero-Day's, Senselearner, Internship`
 - [[Oct 17 2023]] [Types Of Malware](https://sec-fortress.github.io/posts/articles/posts/Malware%20Types.html) `Malware, Senselearner, Internship`
+- [[Dec 26 2023]] [CRTP Methodology](https://sec-fortress.github.io/posts/articles/posts/crtp.html)
