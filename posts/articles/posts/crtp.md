@@ -1,32 +1,10 @@
 # **Altered Security**
 
-## **Attacking & Defending Active Directory (CRTP) Examination Report**
+## **Attacking & Defending Active Directory (CRTP) Methodology**
 
 ![](https://i.imgur.com/4YmMQCH.png)
 
-**Target: Altered Security Examination Lab ( DOMAIN )**
 
-**Date: December 26, 2023**
-
-**Owner: Olakojo Olaoluwa Joshua**
-
-## **TABLE OF CONTENTS**
-
-**00 - studvm.tech.finance.corp ............................................................................ 14** 
-
-**01 - mgmtsrv.tech.finance.corp ............................................................................ 18** 
-
-**02 - techsrv30.tech.finance.corp ............................................................................ 22** 
-
-**03 - dbserver31.tech.finance.corp ............................................................................ 28** 
-
-**04 - tech-dc.tech.finance.corp ............................................................................ 32** 
-
-**05 - finance-dc.finance.corp ............................................................................ 34** 
-
-**06 - Remediation and Recommendation ............................................................................ 36**
-
-<div style="page-break-after: always"></div>
 
 
 # **00 - studvm.tech.finance.corp**
