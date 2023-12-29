@@ -221,7 +221,7 @@ secretsdump.py spookysec.local/backup:backup2517860@10.10.234.228
 
 
 
-Since we have the **Win-RM** port opened(**5985**), we can use a tool called `evil-winrm` to gain shell on our target with just their **usernames** and respective **NT hashes**
+Since we have the **Win-RM** port opened(**5985**), we can use a tool called `evil-winrm` to gain shell on our target with just their **usernames** and respective **NT hashes** using the **pass-the-hash** attack
 
 **_Administrator_** -:
 
