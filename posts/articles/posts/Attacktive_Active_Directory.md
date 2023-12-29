@@ -1,5 +1,12 @@
 # **Attacking Active Directory**
 
+***
+## **Difficulty = Info**
+
+![image](https://github.com/sec-fortress/sec-fortress.github.io/assets/132317714/e258cea5-0589-4240-98fb-f444d291c0d6)
+***
+
+
 Running our nmap scan we have 
 
 ```bash
