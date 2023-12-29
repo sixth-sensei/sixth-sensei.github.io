@@ -30,3 +30,4 @@ Hacking cheatsheet/Blogs....
 - [[Oct 17 2023]] [Zero-Day Attack Explained](https://sec-fortress.github.io/posts/articles/posts/Zero-day%20explained.html) `Zero-Day's, Senselearner, Internship`
 - [[Oct 17 2023]] [Types Of Malware](https://sec-fortress.github.io/posts/articles/posts/Malware%20Types.html) `Malware, Senselearner, Internship`
 - [[Dec 26 2023]] [CRTP Methodology](https://sec-fortress.github.io/posts/articles/posts/crtp.html)
+- [[Dec 29 2023]] [Attacking Active Directory](https://sec-fortress.github.io/posts/articles/posts/Attacktive_Active_Directory.html) `ASREPRoasting, File disclosure, Pass-The-Hash`
