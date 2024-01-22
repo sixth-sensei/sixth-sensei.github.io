@@ -18,7 +18,7 @@ whoami /priv
 - Note that only those privileges that allow us to escalate in the system are of interest.
 
 
-## SeBackup / SeRestore
+## **SeBackup / SeRestore**
 
 
 ![](https://i.imgur.com/y9LrrrW.png)
@@ -67,7 +67,7 @@ impacket-secretsdump -sam sam.hive -system system.hive LOCAL
 
 
 
-## SeTakeOwnership
+## **SeTakeOwnership**
 
 
 
@@ -128,7 +128,7 @@ copy cmd.exe utilman.exe
 ![](https://i.imgur.com/oeLERDx.png)
 
 
-#### **Extra**
+### **Extra**
 
 Use this with files that might contain credentials such as
 
@@ -145,7 +145,7 @@ Use this with files that might contain credentials such as
 
 
 
-## SeImpersonate / SeAssignPrimaryToken
+## **SeImpersonate / SeAssignPrimaryToken**
 
 
 - These privileges allow a process to impersonate other users and act on their behalf.
