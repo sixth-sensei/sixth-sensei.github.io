@@ -46,6 +46,7 @@ Yo 👋, welcome to my Cyber Security Blog! I'm Olaoluwa, an 18-year-old achievi
 - [[Oct. 25 2023]] [Chocolate Factory](https://sec-fortress.github.io/posts/thm/posts/ChocolateFactory.html) `Command injection, lateral movement, vi privilege escalation`
 - [[Oct. 26 2023]] [ColddBox](https://sec-fortress.github.io/posts/thm/posts/colddboxeasy.html) `wpscan, RCE, vim privilege escalation`
 - [[Nov. 24 2023]] [Plotted-TMS](https://sec-fortress.github.io/posts/thm/posts/Plotted-TMS.html) `Enumeration, Unrestricted File Upload, doas x openssl privilege escalation`
+- [[Feb. 03 2024]] [Reset](https://sec-fortress.github.io/posts/thm/posts/Reset.html) `SMB Ntlm_Theft, BloodHound, Abusing ACEs, Constrained Delegations`
 
 
 
