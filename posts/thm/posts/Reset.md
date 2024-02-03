@@ -441,9 +441,13 @@ impacket-secretsdump -k -no-pass HayStack.thm.corp
 
 
 
+Happy Weekends 😊
+
+
+![](https://i.pinimg.com/originals/35/4a/eb/354aebbc05b98731b004a6378c03b4dc.gif)
 
 
 
 
-
+<button onclick="window.location.href='https://sec-fortress.github.io';">Back To Home螥</button>
 
