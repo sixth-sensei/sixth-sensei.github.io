@@ -250,7 +250,7 @@ bloodhound-python -ns 10.10.94.182 --dns-tcp -d THM.CORP -u <username> -p <passw
 ![](https://i.imgur.com/Wc2ZJh6.png)
 
 
-- Using Impacket
+- Using `Impacket-GetNPUsers` we can go ahead and retrive the `krb5asrep` hash for each users respectively
 
 
 ```
