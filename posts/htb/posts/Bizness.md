@@ -1,8 +1,6 @@
 # **Bizness | HTB**
 
 ***
-## **Difficulty = Easy**
-
 
 ![image](https://github.com/sec-fortress/sec-fortress.github.io/assets/132317714/db5be50c-eaa2-44a8-9160-d1e32ab85367)
 
