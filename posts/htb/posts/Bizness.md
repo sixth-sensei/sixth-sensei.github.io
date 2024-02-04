@@ -221,3 +221,6 @@ GG
 
 ![](https://i.pinimg.com/originals/bb/83/ac/bb83ac696e85c4710a5b89c6d6eeac81.gif)
 
+
+<button onclick="window.location.href='https://sec-fortress.github.io';">Back To Home螥</button>
+
