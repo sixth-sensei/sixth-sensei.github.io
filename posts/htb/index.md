@@ -73,5 +73,5 @@ The Hack The Box platform provides a wealth of challenges - in the form of virtu
 - [[Nov. 06 2023]] [Codify](https://sec-fortress.github.io/posts/htb/posts/codify.html) `Node.Js RCE, Lateral movement, Sudo Privilege escalation`
 - [[Nov. 21 2023]] [Hospital](https://sec-fortress.github.io/posts/htb/posts/Hospital.html) `File Upload = RCE, OverlayFS, Lateral Movement, Admin creds exposure`
 - [[Feb. 04 2024]] [Bizness](https://sec-fortress.github.io/posts/htb/posts/Bizness.html) `OfBiz Pre-Auth RCE, Information Disclosure, Passowrd Cracking`
-<!-- - [[Feb. 04 2024]] [Bizness](https://sec-fortress.github.io/posts/htb/posts/skyfall.html) -->
+- [[Feb. 04 2024]] [Bizness](https://sec-fortress.github.io/posts/htb/posts/skyfall.html) `403 Bypass, Devops, Vault, MinIO`
 
