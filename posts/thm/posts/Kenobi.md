@@ -252,3 +252,9 @@ export PATH=/tmp:$PATH
 
 
 Just a milestone to the Offensive Security Path, Have a nice weekend 😄
+
+
+<button onclick="window.location.href='https://sec-fortress.github.io';">Back To Home螥</button>
+
+
+
