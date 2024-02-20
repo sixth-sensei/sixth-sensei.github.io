@@ -101,6 +101,7 @@ Yo 👋, welcome to my Cyber Security Blog! I'm Olaoluwa, an 18-year-old achievi
 ### **ProvingGrounds Writeups:~#**
 * * *
 - [[Jun. 9 2023]] [dc-2](https://sec-fortress.github.io/posts/pg/posts/dc2.html) `GTFOBins, Restricted Environment, Brute forcing`
+- [[Feb. 20 2024]] [Muddy](https://sec-fortress.github.io/posts/pg/posts/muddy.html) `XXE Injection (CVE-2019-1010268), Credential theft, PUT-method-WebDav, Cronjob privilege escalation`
 
 * * *
 ### **HackMyVM Writeups:~#**
