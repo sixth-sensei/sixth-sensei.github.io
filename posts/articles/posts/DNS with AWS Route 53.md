@@ -59,3 +59,6 @@
 
 
 Highlighting the most common ones is the `CNAME` and the `ALIAS` record, You can read more about them from [here](https://help.ns1.com/hc/en-us/articles/360017511293-What-is-the-difference-between-CNAME-and-ALIAS-records)
+
+
+<button onclick="window.location.href='https://sec-fortress.github.io';">Back To Home螥</button>
