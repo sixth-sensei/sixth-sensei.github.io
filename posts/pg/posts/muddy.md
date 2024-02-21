@@ -246,3 +246,7 @@ find / -type f -name local.txt 2>/dev/null
 
 
 GG
+
+
+<button onclick="window.location.href='https://sec-fortress.github.io';">Back To Home螥</button>
+
