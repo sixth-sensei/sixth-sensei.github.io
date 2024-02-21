@@ -32,3 +32,4 @@ Hacking cheatsheet/Blogs....
 - [[Dec 26 2023]] [CRTP Methodology](https://sec-fortress.github.io/posts/articles/posts/crtp.html)
 - [[Dec 29 2023]] [Attacking Active Directory](https://sec-fortress.github.io/posts/articles/posts/Attacktive_Active_Directory.html) `ASREPRoasting, File disclosure, Pass-The-Hash`
 - [[Jan 20 2023]] [Abusing dangerous privileges - Windows](https://sec-fortress.github.io/posts/articles/posts/Abusing_dangerous_privileges.html) `SeBackup/SeRestore, SeTakeOwnership, SeImpersonate/SeAssignPrimaryToken`
+- [[Feb 21 2023]] [DNS with AWS Route 53](https://sec-fortress.github.io/posts/articles/posts/DNS%20with%20AWS%20Route%2053.md) `Hosted Zones, Routing Policies, S3 Records`
