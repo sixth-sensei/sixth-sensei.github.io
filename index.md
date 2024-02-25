@@ -102,6 +102,8 @@ Yo 👋, welcome to my Cyber Security Blog! I'm Olaoluwa, an 18-year-old achievi
 * * *
 - [[Jun. 09 2023]] [dc-2](https://sec-fortress.github.io/posts/pg/posts/dc2.html) `GTFOBins, Restricted Environment, Brute forcing`
 - [[Feb. 20 2024]] [Muddy](https://sec-fortress.github.io/posts/pg/posts/muddy.html) `XXE Injection (CVE-2019-1010268), Credential theft, PUT-method-WebDav, Cronjob privilege escalation`
+- [[Feb. 20 2024]] [Filmsy](https://sec-fortress.github.io/posts/pg/posts/Filmsy.html) `Remote Code Execution, Cron Privilege Escalation`
+- [[Feb. 20 2024]] [Pebbbles](https://sec-fortress.github.io/posts/pg/posts/pebbles.html) `Reflected XSS, Local File Inclusion, SQLi to RCE`
 
 * * *
 ### **HackMyVM Writeups:~#**
