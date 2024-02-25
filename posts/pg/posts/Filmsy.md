@@ -150,3 +150,6 @@ Running the below command we can see that we truly do have access
 we can then regain the `proof.txt` flag as a normal user
 
 GG
+
+
+<button onclick="window.location.href='https://sec-fortress.github.io';">Back To Home螥</button>
