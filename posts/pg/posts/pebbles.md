@@ -221,8 +221,13 @@ Running a ping scan we can see our target can truly communicate with us
 
 ![](https://i.imgur.com/7BlyjM7.png)
 
-But that is it buddy, yeah that is it, nothing works from here, i have followed walkthroughs for walkthroughs, Nothing works
+But that is it buddy, yeah that is it, nothing works from here, i have followed walkthroughs for walkthroughs, Nothing works, Normally we are meant to get shell as user `root` from here...
 
 
 
 GG
+
+
+
+<button onclick="window.location.href='https://sec-fortress.github.io';">Back To Home螥</button>
+
