@@ -134,3 +134,6 @@ Fortunately, this password didn't work for the user `offsec` but worked for the 
 ![](https://i.imgur.com/CSY22KL.png)
 
 GG
+
+
+<button onclick="window.location.href='https://sec-fortress.github.io';">Back To Home螥</button>
