@@ -1,6 +1,12 @@
 # **Codo** | PG Practice
 
 ***
+## Part 2 of Mid Year CTF machines
+
+## Released on: Jun 16, 2023
+## Walkthrough: Yes
+
+***
 
 Running our nmap scan we have
 
