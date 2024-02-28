@@ -108,6 +108,7 @@ Yo 👋, welcome to my Cyber Security Blog! I'm Olaoluwa, an 18-year-old achievi
 - [[Feb. 20 2024]] [Pebbbles](https://sec-fortress.github.io/posts/pg/posts/pebbles.html) `Reflected XSS, Local File Inclusion, SQLi to RCE`
 - [[Feb. 24 2024]] [Codo](https://sec-fortress.github.io/posts/pg/posts/Codo.html) `Default Credentials, File Upload to RCE, Priv Esc via Information Disclosure (PHP Config file)`
 - [[Feb. 24 2024]] [Hub](https://sec-fortress.github.io/posts/pg/posts/Hub.html) `Information Disclosure, File Upload, Remote Code Execution`
+- [[Feb. 24 2024]] [Hub](https://sec-fortress.github.io/posts/pg/posts/Exfiltrated.html) `CVE-2018-19422-SubrionCMS-RCE, Cron Jobs, CVE-2021-22204(ExifTool)-Arbitrary Code Execution`
 
 * * *
 ### **HackMyVM Writeups:~#**
