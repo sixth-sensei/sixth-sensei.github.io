@@ -83,12 +83,12 @@ Whereas checking [http://192.168.227.25:8082/](http://192.168.227.25:8082/) we a
 ![](https://i.imgur.com/XU9QKCX.png)
 
 
-Successfully set up the administrator password and username
+Successfully set up the administrator account with username: `admin` and password: `admin123`
 
 ![](https://i.imgur.com/Cd648Mf.png)
 
 
-Navigating to the about section of this page i found a version disclosure
+Navigating to the about section of this page i found a version disclosure of this web application called `FuguHub 8.4`
 
 
 
