@@ -284,3 +284,7 @@ nc -lvnp 1337
 GG 😄
 
 ![](https://i.pinimg.com/originals/22/cc/d4/22ccd4b0bc4acb55cebb131cc9bd0d09.gif)
+
+
+<button onclick="window.location.href='https://sec-fortress.github.io';">Back To Home螥</button>
+
