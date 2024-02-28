@@ -12,7 +12,7 @@
 ## **Scanning**
 
 
-Running our network mapper (nmap) to for ports//service//version discovery we have
+Running our network mapper (nmap) for open ports//services//version discovery we have
 
 ```bash
 # Nmap 7.94SVN scan initiated Wed Feb 28 08:49:14 2024 as: nmap -p- -T4 -v --min-rate=1000 -sCV -oN nmap.txt 192.168.227.163
