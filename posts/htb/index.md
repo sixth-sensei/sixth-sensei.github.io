@@ -75,5 +75,5 @@ The Hack The Box platform provides a wealth of challenges - in the form of virtu
 - [[Feb. 04 2024]] [Bizness](https://sec-fortress.github.io/posts/htb/posts/Bizness.html) `OfBiz Pre-Auth RCE, Information Disclosure, Passowrd Cracking`
 - [[Feb. 04 2024]] [Skyfall](https://sec-fortress.github.io/posts/htb/posts/skyfall.html) `403 Bypass, Devops, Vault, MinIO`
 - [[Feb. 08 2024]] [Keeper](https://sec-fortress.github.io/posts/htb/posts/keeper.html) `Default Credentials, Information Disclosure, PuTTY Key file Privilege escalation`
-- [[Feb. 2 2024]] [Keeper](https://sec-fortress.github.io/posts/htb/posts/Office.html) 
+- [[Feb. 2 2024]] [Office](https://sec-fortress.github.io/posts/htb/posts/Office.html) `Unauthenticated information disclosure, Wireshark, Vault Credentials (Dpapi), ACE Abuse (WriteDacl)`
 
