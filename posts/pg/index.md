@@ -19,4 +19,5 @@ OffSec Proving Grounds (PG) Play and Practice is a modern network for practicing
 - [[Feb. 20 2024]] [Muddy](https://sec-fortress.github.io/posts/pg/posts/muddy.html) `XXE Injection (CVE-2019-1010268), Credential theft, PUT-method-WebDav, Cronjob privilege escalation`
 - [[Feb. 20 2024]] [Filmsy](https://sec-fortress.github.io/posts/pg/posts/Filmsy.html) `Remote Code Execution, Cron Privilege Escalation`
 - [[Feb. 20 2024]] [Pebbles](https://sec-fortress.github.io/posts/pg/posts/pebbles.html) `Reflected XSS, Local File Inclusion, SQLi to RCE`
-- [[Feb. 24 2024]] [Codo](https://sec-fortress.github.io/posts/pg/posts/Codo.html) `Default Credentials, File Upload to RCE, Priv Esc via Information Disclosure (Config files)` 
+- [[Feb. 24 2024]] [Codo](https://sec-fortress.github.io/posts/pg/posts/Codo.html) `Default Credentials, File Upload to RCE, Priv Esc via Information Disclosure (Config files)`
+- [[Feb. 24 2024]] [Codo](https://sec-fortress.github.io/posts/pg/posts/Hub.html) `Information Disclosure, File Upload, Remote Code Execution`
