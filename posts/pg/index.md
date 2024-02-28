@@ -21,3 +21,4 @@ OffSec Proving Grounds (PG) Play and Practice is a modern network for practicing
 - [[Feb. 20 2024]] [Pebbles](https://sec-fortress.github.io/posts/pg/posts/pebbles.html) `Reflected XSS, Local File Inclusion, SQLi to RCE`
 - [[Feb. 24 2024]] [Codo](https://sec-fortress.github.io/posts/pg/posts/Codo.html) `Default Credentials, File Upload to RCE, Priv Esc via Information Disclosure (Config files)`
 - [[Feb. 24 2024]] [Hub](https://sec-fortress.github.io/posts/pg/posts/Hub.html) `Information Disclosure, File Upload, Remote Code Execution`
+- [[Feb. 24 2024]] [Hub](https://sec-fortress.github.io/posts/pg/posts/Exfiltrated.html) `CVE-2018-19422-SubrionCMS-RCE, Cron Jobs, CVE-2021-22204(ExifTool)-Arbitrary Code Execution`
