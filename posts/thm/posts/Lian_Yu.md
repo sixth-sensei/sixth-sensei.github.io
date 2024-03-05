@@ -1,9 +1,7 @@
-# Brief
+# Lian_YU
 
 ***
 ![Lian_Yu](https://tryhackme-images.s3.amazonaws.com/room-icons/c72d580db69a726dfb8da8aa6eaa2f5a.jpeg)
-
-**Title:** Lian_Yu
 
 **Difficulty:** Easy
 
