@@ -4,7 +4,7 @@ title: Home
 ---
 
 <!--Favicon-->
-<link rel="shortcut icon" href="favico.ico" type="image/vnd.microsoft.icon">
+<!--link rel="shortcut icon" href="favico.ico" type="image/vnd.microsoft.icon"-->
 <h2 class="mume-header" id="mainindexhtml-nbspnbsp-contactcontacthtml"><a href="./index.html">Root</a>&#xA0;&#xA0;&#xA0; <a href="/posts/thm/index.html">TryHackMe</a>&#xA0;&#xA0;&#xA0;</h2>
 
 * * *
