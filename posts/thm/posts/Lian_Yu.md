@@ -122,3 +122,6 @@ checked the root directory to catch the root flag and boom, Done!!
 4. What is the file name with SSH password? Ans: shado
 5. user.txt? Ans: THM{P30P7E_K33P_53CRET5__C0MPUT3R5_D0N'T}
 6. root.txt? Ans: THM{MY_W0RD_I5_MY_B0ND_IF_I_ACC3PT_YOUR_CONTRACT_THEN_IT_WILL_BE_COMPL3TED_OR_I'LL_BE_D34D}
+
+
+**See you again 👋🏽**
