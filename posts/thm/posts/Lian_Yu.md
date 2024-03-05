@@ -3,7 +3,7 @@
 ***
 ![Lian_Yu](https://tryhackme-images.s3.amazonaws.com/room-icons/c72d580db69a726dfb8da8aa6eaa2f5a.jpeg)
 
-**Difficulty:** Easy
+### Difficulty: Easy
 
 ***
 
@@ -124,3 +124,5 @@ checked the root directory to catch the root flag and boom, Done!!
 <br>
 
 **See you again 👋🏽**
+
+<button onclick="window.location.href='https://sixth-sensei.github.io';">Back To Home 🏠</button>
