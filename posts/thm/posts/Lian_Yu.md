@@ -1,19 +1,18 @@
 # Brief
 
 ***
-![](https://tryhackme-images.s3.amazonaws.com/room-icons/c72d580db69a726dfb8da8aa6eaa2f5a.jpeg)
+![Lian_Yu](https://tryhackme-images.s3.amazonaws.com/room-icons/c72d580db69a726dfb8da8aa6eaa2f5a.jpeg)
 
-**Title** Lian_Yu
+**Title:** Lian_Yu
 
-**Difficulty** Easy
+**Difficulty:** Easy
 
 ***
 
 ## Nmap Scan Result
 
 ```bash
-#nmap -A -T 4 -p- 10.10.70.36 > nmap_scan
-#Starting Nmap 7.94 ( https://nmap.org ) at 2024-03-03 07:14 WAT
+#nmap -A -T 4 -p- 10.10.70.36 > nmap_scan: Starting Nmap 7.94 ( https://nmap.org ) at 2024-03-03 07:14 WAT
 Nmap scan report for 10.10.70.36
 Host is up (0.17s latency).
 Not shown: 65530 closed tcp ports (reset)
@@ -61,54 +60,59 @@ Nmap done: 1 IP address (1 host up) scanned in 1247.99 seconds
 
 Using gobuster to enumerate the http server for hidden directories, found `/island` but the question hint specifies this hidden directory is in numbers so i'll have to enumerate further.
 
-[screenshot island_dir]
+![island_dir](https://github.com/sixth-sensei/sixth-sensei.github.io/assets/31647166/bb79f44e-63d6-4205-abd8-79a706c5d758)
 
 I saw what might be a possible username **vigilante** in this page-source. Decided to run gobuster against this new discovered endpoint. Found another hidden directory `2100` which looks like our answer.
 
-[screenshot gobuster_island]
-[screenshot 2100_dir]
+![gobuster_island](https://github.com/sixth-sensei/sixth-sensei.github.io/assets/31647166/54640870-1934-40e2-8db9-a0cd47192d0c)
+
+
+![2100_dir](https://github.com/sixth-sensei/sixth-sensei.github.io/assets/31647166/4f29efa2-eb0b-4882-b25e-32207da4a382)
 
 There's a `.ticket` clue in the page source, enumerating this endpoint again specifying `ticket` as file extension.
 
-[screenshot ticket_start]
+![ticket_start](https://github.com/sixth-sensei/sixth-sensei.github.io/assets/31647166/d1e0acd0-de7c-44c5-9b44-f8a389deeb68)
 
 Found the ticket to reaching Lian Yu `green_arrow.ticket` which doubles as the filename requested in the question 2.
 
-[screenshot ticket_extension]
+![ticket_extension](https://github.com/sixth-sensei/sixth-sensei.github.io/assets/31647166/7a415139-9f97-4e3d-857d-ac5693adfd66)
 
 I have the token `RTy8yhBQdscX` that looks like a password to the username found earlier which should be a combination to accessing the ftp server found earlier in nmap. The password is encoded because i got an error after supplying it in the question, so i used `decode.fr` to know what format it is; found it to be a `base58` encoding then used cyberchef to crack it and got `!#th3h00d`.
 
-[screenshot cyberchef]
+![cyberchef](https://github.com/sixth-sensei/sixth-sensei.github.io/assets/31647166/f5d2e16c-9d9f-43c4-a6b4-d7f16eb32a94)
 
 Decided to access the services we enumerated earlier in nmap with the username and password we have. First on the list is `ftp`
 
-[screenshot ftp]
+![ftp_login](https://github.com/sixth-sensei/sixth-sensei.github.io/assets/31647166/1cf967cd-4ac1-40a9-b8c0-38c486d83868)
 
 voila 🤓! the first service gave in, walked around the ftp directory to see what i can find. Downloaded all the files in the directory and found possible ssh username **slade** in the `.other_user` file. Found one of the images in the directory to have an embedded file; extracting with stegseek, I got a zip file `ss.zip` and in it a file named shado containing `M3tahuman` which seems like the ssh password.
 
-[screenshot stegseek]
+![stegseek](https://github.com/sixth-sensei/sixth-sensei.github.io/assets/31647166/377039b4-6d6c-47fe-b7cb-e3da4ec3c387)
 
-using the credential gotten, tried to login via ssh and it's successful 😉. Finally found my way to Lian_Yu
+using the credential gotten, tried to login via ssh and it's successful 😉. Finally found my way to Lian_Yu!!
 
-[screenshot Lian_Yu] 
+![Lian_Yu](https://github.com/sixth-sensei/sixth-sensei.github.io/assets/31647166/2bd3224c-7444-4e22-a5fd-a95737dc35fe) 
 
 Navigating the directory, i found the user flag `user.txt`
 
-[screenshot userflag]
+![userflag](https://github.com/sixth-sensei/sixth-sensei.github.io/assets/31647166/63f2986a-7356-4d32-b59c-80e092fa6c12)
 
 ## Privilege Escalation
 
 Ran `sudo -l` to know what sudo privileges **slade** has and i could see pkexec; 
 
-[slade_sudo screenshot]
+![slade_sudo](https://github.com/sixth-sensei/sixth-sensei.github.io/assets/31647166/64292f46-da06-45db-8598-d4e4539cce6a)
 
 ran `sudo pkexec /bin/sh` gotten from enumerating for pkexec binary on `gtfobins` and i got root!
 
-[screenshot gtfobins] [screenshot root shell]
+![gtfobins](https://github.com/sixth-sensei/sixth-sensei.github.io/assets/31647166/2f82cd7f-51a3-43ce-81f6-c6107cc5de1f)
+
+![root shell](https://github.com/sixth-sensei/sixth-sensei.github.io/assets/31647166/0c1c3da0-f904-4c22-b87e-895211745d08)
 
 checked the root directory to catch the root flag and boom, Done!!
 
-[rootflag_screenshot]
+![rootflag](https://github.com/sixth-sensei/sixth-sensei.github.io/assets/31647166/68a8f22b-0c58-4c3f-98d1-3eaffab94642)
+
 
 
 ## Questions
