@@ -17,13 +17,13 @@ Hey👋, welcome to my Cyber Security Blog/Diary! I'm AbdulFatai, a n00b learnin
 * * *
 ### **TryHackMe Writeups:~#**
 * * *
-- [[June 23 2023]] [Source](https://sec-fortress.github.io/posts/thm/posts/source.html) `Webmin, Metasploit`
-- [[June 24 2023]] [Agent Sudo](https://sec-fortress.github.io/posts/thm/posts/agentsudo.html) `BruteForce, Redirections, Steganography`
-- [[Aug. 10 2023]] [Simple CTF](https://sec-fortress.github.io/posts/thm/posts/simplectf.html) `Unauthenticated SQLI, Encoding` 
+<!-- - [[June 23 2023]] [Source](https://sec-fortress.github.io/posts/thm/posts/source.html) `Webmin, Metasploit`
+- [[June 24 2023]] [Agent Sudo](https://sec-fortress.github.io/posts/thm/posts/agentsudo.html) `BruteForce, Redirections, Steganography`-->
+- [[Mar 05 2024]] [Lian_Yu](https://sixth-sensei.github.io/posts/thm/Lian_Yu.html) `gobuster, gtfobins, Steganography, pkexec, privilege escalation` 
 
 
 
 
 * * *
 
-Hi there! Peradventure you're having any issues with my writeups, feel free to send me a DM on Twitter `@bydimeji`. I'm always here to help! xD
+Hi there! Peradventure you're having any issues with my writeups or how it can be improved, feel free to send me a DM on Twitter `@bydimeji`. I'm always here to help! xD
