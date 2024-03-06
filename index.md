@@ -20,7 +20,7 @@ Hey👋, welcome to my Cyber Security Blog/Diary! I'm AbdulFatai, a n00b learnin
 <!-- - [[June 23 2023]] [Source](https://sec-fortress.github.io/posts/thm/posts/source.html) `Webmin, Metasploit`
 - [[June 24 2023]] [Agent Sudo](https://sec-fortress.github.io/posts/thm/posts/agentsudo.html) `BruteForce, Redirections, Steganography`-->
 - [[Mar 05 2024]] [Lian_Yu](https://sixth-sensei.github.io/posts/thm/posts/Lian_Yu.html) `gobuster, gtfobins, Steganography, pkexec, privilege escalation`
-- [[Mar 06 2024]] [RootMe](https://sixth-sensei.github.io/posts/thm/posts/rootme.html) `SUID, gobuster, Arbitrary File upload, gtfobins, privilege escalation`
+- [[Mar 06 2024]] [RootMe](https://sixth-sensei.github.io/posts/thm/posts/rootme.html) `SUID, Arbitrary File upload, gtfobins, privilege escalation`
 
 
 
