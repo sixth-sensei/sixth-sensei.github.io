@@ -75,7 +75,7 @@ Found the ticket to reaching Lian Yu `green_arrow.ticket` which doubles as the f
 
 ![ticket_extension](https://github.com/sixth-sensei/sixth-sensei.github.io/assets/31647166/7a415139-9f97-4e3d-857d-ac5693adfd66)
 
-I have the token `RTy8yhBQdscX` that looks like a password to the username found earlier which should be a combination to accessing the ftp server found earlier in nmap. The password is encoded because i got an error after supplying it in the question, so i used `decode.fr` to know what format it is; found it to be a `base58` encoding then used cyberchef to crack it and got `!#th3h00d`.
+Navigating to the `green_arrow.ticket` URL, I have a token `RTy8yhBQdscX` that looks like a password to the username found earlier which should be a combination to accessing the ftp server found earlier in nmap. The password is encoded because i got an error after supplying it in the question, so i used `decode.fr` to know what format it is; found it to be a `base58` encoding then used cyberchef to crack it and got `!#th3h00d`.
 
 ![cyberchef](https://github.com/sixth-sensei/sixth-sensei.github.io/assets/31647166/f5d2e16c-9d9f-43c4-a6b4-d7f16eb32a94)
 
@@ -83,7 +83,7 @@ Decided to access the services we enumerated earlier in nmap with the username a
 
 ![ftp_login](https://github.com/sixth-sensei/sixth-sensei.github.io/assets/31647166/1cf967cd-4ac1-40a9-b8c0-38c486d83868)
 
-voila 🤓! the first service gave in, walked around the ftp directory to see what i can find. Downloaded all the files in the directory and found possible ssh username **slade** in the `.other_user` file. Found one of the images in the directory to have an embedded file; extracting with stegseek, I got a zip file `ss.zip` and in it a file named shado containing `M3tahuman` which seems like the ssh password.
+voila 🤓! the first service gave in, navigated around the ftp directory to see what i can find. Downloaded all the files in the directory and found possible ssh username **slade** in the `.other_user` file. Found one of the images `aa.jpg` in the directory to have an embedded file; extracting with stegseek, I got a zip file `ss.zip` and in it a file named **shado** containing `M3tahuman` which seems like the ssh password.
 
 ![stegseek](https://github.com/sixth-sensei/sixth-sensei.github.io/assets/31647166/377039b4-6d6c-47fe-b7cb-e3da4ec3c387)
 
@@ -97,7 +97,7 @@ Navigating the directory, i found the user flag `user.txt`
 
 ## Privilege Escalation
 
-Ran `sudo -l` to know what sudo privileges **slade** has and i could see pkexec; 
+Ran `sudo -l` to know what sudo privileges **slade** has and i could see `pkexec`; 
 
 ![slade_sudo](https://github.com/sixth-sensei/sixth-sensei.github.io/assets/31647166/64292f46-da06-45db-8598-d4e4539cce6a)
 
@@ -114,12 +114,12 @@ checked the root directory to catch the root flag and boom, Done!!
 
 
 ## Questions
-1. What is the Web Directory you found? Ans: 2100
-2. What is the file name you found? Ans: green_arrow.ticket
-3. What is the FTP Password? Ans: !#th3h00d
-4. What is the file name with SSH password? Ans: shado
-5. user.txt? Ans: THM{P30P7E_K33P_53CRET5__C0MPUT3R5_D0N'T}
-6. root.txt? Ans: THM{MY_W0RD_I5_MY_B0ND_IF_I_ACC3PT_YOUR_CONTRACT_THEN_IT_WILL_BE_COMPL3TED_OR_I'LL_BE_D34D}
+1. What is the Web Directory you found? - **2100**
+2. What is the file name you found? - **green_arrow.ticket**
+3. What is the FTP Password? - **!#th3h00d**
+4. What is the file name with SSH password? - **shado**
+5. user.txt? - **THM{P30P7E_K33P_53CRET5__C0MPUT3R5_D0N'T}**
+6. root.txt? - **THM{MY_W0RD_I5_MY_B0ND_IF_I_ACC3PT_YOUR_CONTRACT_THEN_IT_WILL_BE_COMPL3TED_OR_I'LL_BE_D34D}**
 
 <br>
 
