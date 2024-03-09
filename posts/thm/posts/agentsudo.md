@@ -167,13 +167,11 @@ Now let's get root, running `sudo -l` to see the sudo privileges agent J has
 
 Interesting 🤠!! agent J has `(ALL, !root) /bin/bash` privilege, looking this up; we got an exploit with CVE entry **CVE-2019-1487** on exploitdb
 
-![Uploading exploitdb.png…]()
-[screenshot exploitdb]
+![exploitdb](https://github.com/sixth-sensei/sixth-sensei.github.io/assets/31647166/abe84798-5444-4eee-9390-1e20c3c90dd9)
 
 checking through the exploit code, we can run `sudo -u#-1 /bin/bash` to get root
 
-[screenshot root]
-![Uploading root.png…]()
+![root](https://github.com/sixth-sensei/sixth-sensei.github.io/assets/31647166/cdf55de4-f59d-43da-9dd5-29b8c631b45f)
 
 boom!! we got root; listing the directory, we have the root flag and agent R's name
 
