@@ -32,7 +32,7 @@ we have 3 open ports `ftp`, `http` and `ssh`. let's dive in!
 
 ## Enumeration
 
-#### Port 80
+### Port 80
 
 Navigating to the http server, we're greeted with this page
 
@@ -56,7 +56,7 @@ Only `C` returns a 302 reditect code, setting it as user-agent; we got redirecte
 
 ![agentC](https://github.com/sixth-sensei/sixth-sensei.github.io/assets/31647166/c43d23d8-3a3b-46a2-9502-d9dae1769d62)
 
-#### Port 21
+### Port 21
 
 From the page, agent R pointed out agent C's weak password needing change; trying hydra to bruteforce the ftp service
 
@@ -130,7 +130,7 @@ we see an encoded message `QXJlYTUx`, using `dcode.fr` found it to be a ROT ciph
 
 ![cyberchef](https://github.com/sixth-sensei/sixth-sensei.github.io/assets/31647166/9b0b45e8-ce37-45ec-98f5-197e1650919e)
 
-#### Port 22
+### Port 22
 
 Logging in via ssh, we got access to agent J's account
 
