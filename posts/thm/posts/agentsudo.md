@@ -175,11 +175,9 @@ checking through the exploit code, we can run `sudo -u#-1 /bin/bash` to get root
 
 boom!! we got root; listing the directory, we have the root flag and agent R's name
 
-[screenshot rootflag]
+![rootflag](https://github.com/sixth-sensei/sixth-sensei.github.io/assets/31647166/5bd75b1b-2146-410a-9f44-d5b654010b5e)
 
 This was fun, i hope you enjoyed every bit of it too 🦾
-
-
 
 ## Questions
 
