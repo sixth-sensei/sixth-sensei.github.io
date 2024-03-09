@@ -34,11 +34,11 @@ we have 3 open ports `ftp`, `http` and `ssh`. let's dive in!
 
 ### Port 80
 
-Navigating to the http server, we're greeted with this page
+Navigating to the http service, we're greeted with this page
 
 ![staticsite](https://github.com/sixth-sensei/sixth-sensei.github.io/assets/31647166/9761a4b5-ee71-4b56-86ab-9bbaed45e074)
 
-From webpage, we need a codename to access the site and there's a hint `user-agent` which is an http header. Firing up burpsuite, let's try R as agent; we have this
+From webpage, we need a codename to access the site and there's a hint `user-agent` which is a http header. Firing up burpsuite, let's try R as agent; we have this
 
 ![agentR](https://github.com/sixth-sensei/sixth-sensei.github.io/assets/31647166/70f68919-438e-498d-9d78-d95ea65942a4)
 
@@ -52,7 +52,7 @@ From the response gotten, it is evident the other 25 employees are alphabets; we
 
 ![intruder](https://github.com/sixth-sensei/sixth-sensei.github.io/assets/31647166/ad910b99-5157-403a-908f-e28b0a477c24)
 
-Only `C` returns a 302 reditect code, setting it as user-agent; we got redirected to `agent_C_attention.php` and agent name is **chris**
+Only `C` returns a 302 redirect code, setting it as user-agent; we got redirected to `agent_C_attention.php` and agent name is **chris**
 
 ![agentC](https://github.com/sixth-sensei/sixth-sensei.github.io/assets/31647166/c43d23d8-3a3b-46a2-9502-d9dae1769d62)
 
@@ -74,7 +74,7 @@ reading the message to agent J
 
 ![agenJ_message](https://github.com/sixth-sensei/sixth-sensei.github.io/assets/31647166/0dbaa897-58b1-4d6d-8ab8-a8579ac292e3)
 
-we got hint that agent J's password is embedded in one of the pictures in C's directory. Running `stegseek` on the two pictures `cutie.png` and `cutie-alien.jpg`
+we got hint that agent J's password is embedded in one of the fake alien pictures in C's directory. Running `stegseek` on the two pictures `cutie.png` and `cutie-alien.jpg`
 
 ![stegseek](https://github.com/sixth-sensei/sixth-sensei.github.io/assets/31647166/38f74ffe-dbb4-4581-8154-e0c10554b271)
 
@@ -82,11 +82,11 @@ voila, we found the image with embedded file to be `cutie-alien.jpg` and extract
 
 ![agentJ](https://github.com/sixth-sensei/sixth-sensei.github.io/assets/31647166/a75a0784-6765-4f73-bc0b-65b6ef3a870b)
 
-we can see agent J's name as `james` and his password as `hackerrules!`, let's access his account
+we can see agent J's name is `james` and his password as `hackerrules!`, let's access his account
 
 ![agentJ_ftp](https://github.com/sixth-sensei/sixth-sensei.github.io/assets/31647166/b3ee3d68-4ab8-4167-b2a5-cba107c8e640)
 
-Looks like agent J's credentials isn't for ftp but for ssh since it's the onle service left.
+Looks like agent J's credentials isn't for ftp but for ssh since it's the only service left.
 
 ***
 
@@ -143,7 +143,7 @@ Listing the directory contents, we see our user flag
 
 ![userflag](https://github.com/sixth-sensei/sixth-sensei.github.io/assets/31647166/4c6d734e-7fc8-4ef0-88ae-f816b5446990)
 
-We can see another image file `Alien_autopsy.jpg` in this directory, let's download it on our machine by serving the directory with `http.server`
+We can see another image file `Alien_autospy.jpg` in this directory, must be the real alien picture agent C was referring to in his message to agent J. Let's download it on our machine by serving the directory with `http.server`
 
 ![alien_image](https://github.com/sixth-sensei/sixth-sensei.github.io/assets/31647166/eb73ee11-1e6a-4011-b616-44970e8a802d)
 
