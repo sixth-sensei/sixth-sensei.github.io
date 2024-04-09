@@ -56,23 +56,25 @@ we have 4 open ports, starting with the web service
 **Port 80**
 We're greeted with a login page and from the page source, not much information is gotten except for the Apache verion running discovered from nmpa earlier.
 
-[screenshot login_page]
+![login_page](https://github.com/sixth-sensei/sixth-sensei.github.io/assets/31647166/5957a736-269e-4da9-9694-4656a8f69d9b)
 
 Let's fuzz for hidden directories
 
-[screenshot gobuster_start]
-[screenshot gobuster_end]
+![gobuster_start](https://github.com/sixth-sensei/sixth-sensei.github.io/assets/31647166/5a0af5ad-81fb-4b00-b816-c61c15eaee74)
+
+![gobuster_end](https://github.com/sixth-sensei/sixth-sensei.github.io/assets/31647166/49ea6f31-1efa-4cae-9cd9-51fe8b397f2d)
 
 Found some hidden gems and checking them one after the other, i stumbled upon a file upload page in the `/cloud` endpoint
 
-[screenshot cloud]
+![cloud](https://github.com/sixth-sensei/sixth-sensei.github.io/assets/31647166/0ed029d4-67cd-42af-a8e4-722c089f25f1)
 
 It provided a URL to upload an image, let's see if we can poison with a reverse shell code. Tried serving the reverse shell code with `python http.server` but the form was rejecting it until i added a `#.png` to the end of the URL and that worked since it accepts only image files
 
 _NB:_ other options that worked are `#.jpg`, ` .png` and ` .jpg`. so you can try them
 
-[screenshot  shell_image_upload]
-[screenshot upload_successful]
+![shell_image_upload](https://github.com/sixth-sensei/sixth-sensei.github.io/assets/31647166/d466356d-22c7-4e34-a00d-d6180847115a)
+
+![upload_successful](https://github.com/sixth-sensei/sixth-sensei.github.io/assets/31647166/68dbd4b8-0fac-4f6c-a29f-6ddb9a450e39)
 
 As we can from the terminal, the `http 200` code indicating the file was downloaded successfully from the local server.
 
@@ -80,15 +82,15 @@ As we can from the terminal, the `http 200` code indicating the file was downloa
 
 After a successful upload, we immediately got an shell. yaay 
 
-[screenshot shell]
+![shell](https://github.com/sixth-sensei/sixth-sensei.github.io/assets/31647166/f8c5d0b4-0dbd-49c5-aeef-00054c554330)
 
 navigating the file system to see what we can find, found a `dataset.kdbx` file in the `/opt` directory. A quick search of `.kdbx` extension shows that it is a KeePass database.
 
-[screnshot opt]
+![opt](https://github.com/sixth-sensei/sixth-sensei.github.io/assets/31647166/e933fc75-877d-4055-93b6-6154b63db2d5)
 
 Let's try to get this file on our machine using netcat, learnt this trick from [@DeusX](https://twitter.com/deusx_45) on twitter sometime ago.
 
-[screenshot dataset_transfer]
+![dataset_transfer](https://github.com/sixth-sensei/sixth-sensei.github.io/assets/31647166/05c01de4-7bfe-43e8-acd8-0fc3aa84e8da)
 
 _a little explanation_
 
@@ -99,25 +101,25 @@ Couldn't find a way to open the file, so i had to download the KeePass app. `apt
 
 Looking into the database file, it is encrypted and we need a password to access it. 
 
-[screenshot database_locked]
+![database_locked](https://github.com/sixth-sensei/sixth-sensei.github.io/assets/31647166/a149eab9-c0ff-4498-a5a1-5e3fbe350957)
 
 There is a `KeePass2john` tool that can be used to convert it to a crackable john file.
 
-[screenshot keepass2john]
+![keepass2john](https://github.com/sixth-sensei/sixth-sensei.github.io/assets/31647166/b5e31a96-72ef-4b82-97d0-c76fc60c85eb)
 
 cracking this, we got the password to the dataset
 
-[screenshot cracked_dataset]
+![cracked_dataset](https://github.com/sixth-sensei/sixth-sensei.github.io/assets/31647166/9d9b0872-61fa-4661-810d-a7aab77e22d8)
 
 Accessing the file with the cracked password, we have this
 
-[screenshot unlocked_dataset]
+![dataset_unlocked](https://github.com/sixth-sensei/sixth-sensei.github.io/assets/31647166/adc160c5-4975-4763-b757-7fd7e4d4c35d)
 
 ## Privilege Escalation
 
-Using the credentials gotten from the dataset, we can ssh into the machine and elevate our privilege from `www-data` to `sysadmin`
+Using the credentials gotten from the dataset, we can ssh into the machine and elevate our privilege horizontally from `www-data` to `sysadmin`
 
-[screenshot ssh_sysadmin]
+![ssh_sysadmin](https://github.com/sixth-sensei/sixth-sensei.github.io/assets/31647166/bf011dec-1ecf-4459-a7cf-e0214063e4f8)
 
 Listing the directory contents and right there we have our first flag `local.txt`
 
