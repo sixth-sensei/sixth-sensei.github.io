@@ -29,4 +29,4 @@ Hey👋, welcome to my Cyber Security Blog/Diary! I'm AbdulFatai, a n00b learnin
 
 * * *
 
-Hi there! Peradventure you're having any issues with my writeups or how it can be improved, feel free to send me a DM on Twitter ![`@bydimeji`](https://twitter.com/bydimeji). I'm always here to help! xD
+Hi there! Peradventure you're having any issues with my writeups or how it can be improved, feel free to send me a DM on Twitter ![@bydimeji](https://twitter.com/bydimeji). I'm always here to help! xD
