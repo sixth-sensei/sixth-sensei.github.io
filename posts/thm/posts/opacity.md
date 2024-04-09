@@ -123,36 +123,36 @@ Using the credentials gotten from the dataset, we can ssh into the machine and e
 
 Listing the directory contents and right there we have our first flag `local.txt`
 
-[screenshot first_flag]
+![first_flag](https://github.com/sixth-sensei/sixth-sensei.github.io/assets/31647166/54ba9d64-5a32-4caf-bd87-f3ab02e995f0)
 
 Let's find a path to escalate our privilege vertically and gain root, tried running `sudo -l` but `sysadmin` has no sudo privileges
 
-[screenshot sudo_l]
+![sudo_l](https://github.com/sixth-sensei/sixth-sensei.github.io/assets/31647166/a7317620-dabc-4c08-a8de-af127a6a3d7f)
 
-[meme "few hours later"]
+***
+![moments later](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2F736x%2Fe8%2F02%2Fa0%2Fe802a0d5ac1839d9f84c5fc82e9fd00c--song-quotes-pins.jpg&f=1&nofb=1&ipt=f665d4564c02b457faa10d52caec1bd1ea0c090aee800ccfa23576b1c583d87f&ipo=images)
 
 After exhausting all priv esc techniques, decided to look meticulously in the `sysadmin` folder and saw a scripts directory containing `script.php` belonging to root.
 
-[screenshot script_folder]
+![script_folder](https://github.com/sixth-sensei/sixth-sensei.github.io/assets/31647166/69177ea7-7001-466d-8f8b-bcf744ddd0c0)
 
 looking into the script, it is a backup of the sysadmin folder and it requires a `backup.inc.php` file located in lib
 
-[screenshot scriptphp]
+![scriptphp](https://github.com/sixth-sensei/sixth-sensei.github.io/assets/31647166/255b1d5a-cd8b-4e7b-92a0-f3782ad37fc9)
 
-The `sysadmin` user owns this lib folder but belonging to root group; let's take full ownership and then we can create a reverse shell that we can name `backup.inc.php` [winks]
+The `sysadmin` user owns this lib folder but belonging to root group; let's take full ownership and then we can create a reverse shell that we can name `backup.inc.php` 😉
 
-[screenshot chown_lib]
+![chown_lib](https://github.com/sixth-sensei/sixth-sensei.github.io/assets/31647166/fde685a2-2fe6-4145-abe8-b62510024f87)
 
 Creating the revrse shell and renaming it as `backup.in.php`; since this file is run and required by `root`. Next time the backup script is executed, it'll drop us into a root shell by listening with `netcat` on our chosen port
 
-[screenshot root_escalation]
+![root_escalation](https://github.com/sixth-sensei/sixth-sensei.github.io/assets/31647166/33404b0c-2bf5-4df1-846b-f80ffa2857a9)
 
 Boom!! we're root; let get our final flag `proof.txt`
 
-[screenshot root_flag]
+![rootflag](https://github.com/sixth-sensei/sixth-sensei.github.io/assets/31647166/21e60876-0fc4-44d2-ad57-3ae1f6f977fc)
 
 This was interesting and i learnt new things as well, i hope you enjoyed every bit of it too 🤠
-
 
 
 ## Questions
@@ -163,6 +163,8 @@ This was interesting and i learnt new things as well, i hope you enjoyed every b
 <br>
 
 **See you again 👋🏽**
+
+![salute](https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fmedia.tumblr.com%2F9ab4e593f1efbf5c73a734cbd8ea77fb%2Ftumblr_inline_mxg3ikkpCz1qgctoq.gif&f=1&nofb=1&ipt=59ac8f5dce51a776cc0f9712c01c6ab5a1ea3e7f3b2977146601dc885b45fdb0&ipo=images)
 
 
 <button onclick="window.location.href='https://sixth-sensei.github.io';">Back To Home 🏠</button>
