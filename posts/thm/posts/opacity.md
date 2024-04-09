@@ -1,0 +1,167 @@
+# Opacity
+
+***
+![Opacity](https://tryhackme-images.s3.amazonaws.com/room-icons/328c078f7c5695439a46ba90ae48aaa0.png)
+
+### Difficulty: Easy
+
+***
+
+## Nmap Scan Result
+
+Running nmap scan on the machine, we have
+
+```bash                                                                                 
+┌──(sixth-sensei㉿kali)-[~/THM/Opacity]
+└─$ #sudo nmap -sS -sCV 10.10.50.116
+Starting Nmap 7.94 ( https://nmap.org ) at 2024-04-06 13:17 WAT
+Nmap scan report for 10.10.50.116
+Host is up (0.15s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT    STATE SERVICE     VERSION
+22/tcp  open  ssh         OpenSSH 8.2p1 Ubuntu 4ubuntu0.5 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   3072 0f:ee:29:10:d9:8e:8c:53:e6:4d:e3:67:0c:6e:be:e3 (RSA)
+|   256 95:42:cd:fc:71:27:99:39:2d:00:49:ad:1b:e4:cf:0e (ECDSA)
+|_  256 ed:fe:9c:94:ca:9c:08:6f:f2:5c:a6:cf:4d:3c:8e:5b (ED25519)
+80/tcp  open  http        Apache httpd 2.4.41 ((Ubuntu))
+| http-title: Login
+|_Requested resource was login.php
+|_http-server-header: Apache/2.4.41 (Ubuntu)
+| http-cookie-flags: 
+|   /: 
+|     PHPSESSID: 
+|_      httponly flag not set
+139/tcp open  netbios-ssn Samba smbd 4.6.2
+445/tcp open  netbios-ssn Samba smbd 4.6.2
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Host script results:
+|_clock-skew: -3s
+|_nbstat: NetBIOS name: OPACITY, NetBIOS user: <unknown>, NetBIOS MAC: <unknown> (unknown)
+| smb2-time: 
+|   date: 2024-04-06T12:17:37
+|_  start_date: N/A
+| smb2-security-mode: 
+|   3:1:1: 
+|_    Message signing enabled but not required
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 35.71 seconds
+
+```
+
+## Enumeration
+we have 4 open ports, starting with the web service
+**Port 80**
+We're greeted with a login page and from the page source, not much information is gotten except for the Apache verion running discovered from nmpa earlier.
+
+[screenshot login_page]
+
+Let's fuzz for hidden directories
+
+[screenshot gobuster_start]
+[screenshot gobuster_end]
+
+Found some hidden gems and checking them one after the other, i stumbled upon a file upload page in the `/cloud` endpoint
+
+[screenshot cloud]
+
+It provided a URL to upload an image, let's see if we can poison with a reverse shell code. Tried serving the reverse shell code with `python http.server` but the form was rejecting it until i added a `#.png` to the end of the URL and that worked since it accepts only image files
+
+_NB:_ other options that worked are `#.jpg`, ` .png` and ` .jpg`. so you can try them
+
+[screenshot  shell_image_upload]
+[screenshot upload_successful]
+
+As we can from the terminal, the `http 200` code indicating the file was downloaded successfully from the local server.
+
+## Foothold
+
+After a successful upload, we immediately got an shell. yaay 
+
+[screenshot shell]
+
+navigating the file system to see what we can find, found a `dataset.kdbx` file in the `/opt` directory. A quick search of `.kdbx` extension shows that it is a KeePass database.
+
+[screnshot opt]
+
+Let's try to get this file on our machine using netcat, learnt this trick from [@DeusX](https://twitter.com/deusx_45) on twitter sometime ago.
+
+[screenshot dataset_transfer]
+
+_a little explanation_
+
+- `nc -lnvp [port] < file_to_transfer` from sender machine, initiates an open connection on specified port and serve a certain file
+- `nc [sender IP] [port] > file_to_receive` from receiver's machine, connects to senders machine and downloads the file.
+
+Couldn't find a way to open the file, so i had to download the KeePass app. `apt install keepassx` if you need to install it too.
+
+Looking into the database file, it is encrypted and we need a password to access it. 
+
+[screenshot database_locked]
+
+There is a `KeePass2john` tool that can be used to convert it to a crackable john file.
+
+[screenshot keepass2john]
+
+cracking this, we got the password to the dataset
+
+[screenshot cracked_dataset]
+
+Accessing the file with the cracked password, we have this
+
+[screenshot unlocked_dataset]
+
+## Privilege Escalation
+
+Using the credentials gotten from the dataset, we can ssh into the machine and elevate our privilege from `www-data` to `sysadmin`
+
+[screenshot ssh_sysadmin]
+
+Listing the directory contents and right there we have our first flag `local.txt`
+
+[screenshot first_flag]
+
+Let's find a path to escalate our privilege vertically and gain root, tried running `sudo -l` but `sysadmin` has no sudo privileges
+
+[screenshot sudo_l]
+
+[meme "few hours later"]
+
+After exhausting all priv esc techniques, decided to look meticulously in the `sysadmin` folder and saw a scripts directory containing `script.php` belonging to root.
+
+[screenshot script_folder]
+
+looking into the script, it is a backup of the sysadmin folder and it requires a `backup.inc.php` file located in lib
+
+[screenshot scriptphp]
+
+The `sysadmin` user owns this lib folder but belonging to root group; let's take full ownership and then we can create a reverse shell that we can name `backup.inc.php` [winks]
+
+[screenshot chown_lib]
+
+Creating the revrse shell and renaming it as `backup.in.php`; since this file is run and required by `root`. Next time the backup script is executed, it'll drop us into a root shell by listening with `netcat` on our chosen port
+
+[screenshot root_escalation]
+
+Boom!! we're root; let get our final flag `proof.txt`
+
+[screenshot root_flag]
+
+This was interesting and i learnt new things as well, i hope you enjoyed every bit of it too 🤠
+
+
+
+## Questions
+
+1. What is local.txt flag? - 66**********************e2
+2. What is proof.txt flag? - ac*********************0e
+
+<br>
+
+**See you again 👋🏽**
+
+
+<button onclick="window.location.href='https://sixth-sensei.github.io';">Back To Home 🏠</button>
+
