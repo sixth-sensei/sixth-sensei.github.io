@@ -22,10 +22,11 @@ Hey👋, welcome to my Cyber Security Blog/Diary! I'm AbdulFatai, a n00b learnin
 - [[Mar 05 2024]] [Lian_Yu](https://sixth-sensei.github.io/posts/thm/posts/Lian_Yu.html) `gobuster, gtfobins, Steganography, pkexec, privilege escalation`
 - [[Mar 06 2024]] [RootMe](https://sixth-sensei.github.io/posts/thm/posts/rootme.html) `SUID, Arbitrary File upload, gtfobins, privilege escalation`
 - [[Mar 09 2024]] [AgentSudo](https://sixth-sensei.github.io/posts/thm/posts/agentsudo.html) `Brute force, binwalk, Hash cracking, privilege escalation`
+- [[Apr 09 2024]] [Opacity](https://sixth-sensei.github.io/posts/thm/posts/opacity.html) `Directory Enumeration, Data Exfiltration, Hash cracking, privilege escalation`
 
 
 
 
 * * *
 
-Hi there! Peradventure you're having any issues with my writeups or how it can be improved, feel free to send me a DM on Twitter `@bydimeji`. I'm always here to help! xD
+Hi there! Peradventure you're having any issues with my writeups or how it can be improved, feel free to send me a DM on Twitter ![`@bydimeji`](https://twitter.com/bydimeji). I'm always here to help! xD
