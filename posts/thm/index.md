@@ -11,6 +11,9 @@ title:  TryHackMe
 * * *
 <h4 class="menu-header" id="tryhackme">TryHackMe:</h4>
 
+![tryhackme](https://github.com/sixth-sensei/sixth-sensei.github.io/assets/31647166/42ef4510-fc9e-47d7-b70a-41d2268c213c)
+
+
 Discover CyberSecLabs. With our growing platform delivering beginner hacking content to advanced active directory labs.
 <hr>
 <hr>
