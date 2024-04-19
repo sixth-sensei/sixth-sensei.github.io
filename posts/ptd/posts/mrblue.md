@@ -45,7 +45,7 @@ Nmap done: 1 IP address (1 host up) scanned in 80.47 seconds
 
 This is a windows machine as we can see and there are lots of open ports, starting with port 80 which is the web service
 
-**Port 80**
+### Port 80
 
 We're greeted with this page
 
@@ -57,9 +57,11 @@ checking the page source, we can see an hint of the CVE this service is vulnerab
 
 `MS17-010` popularly known as `Mr Blue`. At this point, if you're familiar with metasploit; `Eternal Blue` exploit should automatically come to your mind but I won't be using metasploit, let's go manually 😉. You're can use metasploit if you want
 
-_Short note on MS17-010:_ EternalBlue is a computer exploit software developed by the U.S. National Security Agency. It is based on a vulnerability in Microsoft Windows that, at the time, could allow remote code execution if an attacker sends specially crafted messages to a Microsoft Server Message Block 1.0 (SMBv1) server
+_Short note on MS17-010_
 
-**Port 445 (SMB)**
+- EternalBlue is a computer exploit software developed by the U.S. National Security Agency. It is based on a vulnerability in Microsoft Windows that, at the time, could allow remote code execution if an attacker sends specially crafted messages to a Microsoft Server Message Block 1.0 (SMBv1) server
+
+### Port 445 (SMB)
 
 Looking `MS17-010` up on exploitdb, we have numerous options
 
