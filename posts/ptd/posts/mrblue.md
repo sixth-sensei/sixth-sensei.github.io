@@ -122,7 +122,7 @@ Let's find the flag 🏁
 
 ![flag](https://github.com/sixth-sensei/sixth-sensei.github.io/assets/31647166/5b33eba3-7625-48c6-a460-2a455366d9e8)
 
-Yaay, that's it.
+Yaay, that's it 🤓.
 
 
 <br>
