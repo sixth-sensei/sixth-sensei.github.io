@@ -51,7 +51,7 @@ We're greeted with this page
 
 ![port_80](https://github.com/sixth-sensei/sixth-sensei.github.io/assets/31647166/dfc4d972-14f3-482e-bb0c-0b43eb91a9f5)
 
-checking the page source, we can see an hint of the CVE this service is vulnerable to `SMB Remote Code Execution`
+Checking the page source, we can see an hint of the CVE this service is vulnerable to `SMB Remote Code Execution`
 
 ![pagesource](https://github.com/sixth-sensei/sixth-sensei.github.io/assets/31647166/fb6a1446-e4a9-466f-9b03-72bb15c826ff)
 
@@ -59,7 +59,7 @@ checking the page source, we can see an hint of the CVE this service is vulnerab
 
 _Short note on MS17-010_
 
-- EternalBlue is a computer exploit software developed by the U.S. National Security Agency. It is based on a vulnerability in Microsoft Windows that, at the time, could allow remote code execution if an attacker sends specially crafted messages to a Microsoft Server Message Block 1.0 (SMBv1) server
+- **EternalBlue** is a computer exploit software developed by the U.S. National Security Agency. It is based on a vulnerability in Microsoft Windows that, at the time, could allow remote code execution if an attacker sends specially crafted messages to a Microsoft Server Message Block 1.0 (SMBv1) server
 
 ### Port 445 (SMB)
 
@@ -90,7 +90,7 @@ Running the exploit `bash Win7Blue.sh`
 
 There is a need to determine the architecture of our target system and we can do that using `crackmapexec`
 
-- crackmapexec is a Python script that can enumerate users, shares, hashes, and more in Windows/Active Directory environments.
+- **crackmapexec** is a Python script that can enumerate users, shares, hashes, and more in Windows/Active Directory environments.
 
 ```bash
 ┌──(sixth-sensei㉿kali)-[~]
