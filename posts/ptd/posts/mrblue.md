@@ -9,7 +9,7 @@
 
 ## Nmap Scan Result
 
-Running nmap scan on the machine, we have
+Running nmap scan on the machine, we have this
 
 ```bash
 ┌──(sixth-sensei㉿kali)-[~/PwnTillDawn/10.150.150.242]
@@ -43,7 +43,7 @@ Nmap done: 1 IP address (1 host up) scanned in 80.47 seconds
 
 ## Enumeration
 
-This is a windows machine as we can see and there are lots of open ports, starting with port 80 which is the web service
+This is a windows machine as we can see from the scan results and there are lots of open ports, starting with port 80 which is the web service; let's enumerate
 
 ### Port 80
 
@@ -55,7 +55,7 @@ Checking the page source, we can see an hint of the CVE this service is vulnerab
 
 ![pagesource](https://github.com/sixth-sensei/sixth-sensei.github.io/assets/31647166/fb6a1446-e4a9-466f-9b03-72bb15c826ff)
 
-`MS17-010` popularly known as `Mr Blue`. At this point, if you're familiar with metasploit; `Eternal Blue` exploit should automatically come to your mind but I won't be using metasploit, let's go manually 😉. You're can use metasploit if you want
+`MS17-010` popularly known as `Mr Blue`. At this point, if you're familiar with metasploit; `Eternal Blue` exploit should automatically come to your mind but I won't be using metasploit, let's go manually 😉. You can use metasploit if you want
 
 _Short note on MS17-010_
 
@@ -108,7 +108,7 @@ _a little clearance_
 - LHOST: The IP address of attacking (our) machine, we're using the tun0 address gotten from PwnTillDawn server
 - LPORT: The port we will like to listen on
 
-Let's set up a listener to catch the connection
+Let's set up a listener to catch the incoming connection
 
 ```bash
 ┌──(sixth-sensei㉿kali)-[~]
