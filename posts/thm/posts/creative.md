@@ -79,7 +79,7 @@ It didn't give RCE rather just showed the file contents in plain text
 
 ![phpshell](https://github.com/sixth-sensei/sixth-sensei.github.io/assets/31647166/24019c85-40c2-423e-b51b-c91c492864ad)
 
-[GIF confused]
+![confused](https://media1.tenor.com/m/O2ZgbQ--_XUAAAAC/spongebob-squarepants-spongebob.gif)
 
 After much back and forth, tried to access `http://localhost` from the URL tester and got the basic HTML version of the creative.thm website
 
@@ -179,15 +179,14 @@ let's copy the `id_rsa` file and use it to authenticate as user `saad`
 
 NB: copy from the page source to get the right format of the key and avoid errors
 
-
-
+![id_rsa](https://github.com/sixth-sensei/sixth-sensei.github.io/assets/31647166/aacc12ba-539a-474a-82d2-0bde18b973f6)
 
 ## Initial Access
 Set the permission for the key to user read & write only `chmod 600` so we can use it to authenticate.
 
 I like exhaustive sweeping, so I somehow went back to saad's home folder and checked the `.bash_history` file
 
-![bash_history](https://github.com/sixth-sensei/sixth-sensei.github.io/assets/31647166/44b51b24-5514-4b0c-9ef6-28f3f82d04ee)
+![bash_history](https://github.com/sixth-sensei/sixth-sensei.github.io/assets/31647166/66c0e818-583d-45d3-ab12-1202f0ab6579)
 
 Voila! there lies his password; but i couldn't use it to authenticate, so let's stick to the rsa file
 
@@ -204,13 +203,13 @@ Found the id_rsa key to have a passphrase, so we'll have to create a john compat
 
 Now that we got the rsa file passphrase, let's authenticate again as saad
 
-[screenshot user-shell] 
+![user-shell](https://github.com/sixth-sensei/sixth-sensei.github.io/assets/31647166/7e7741cc-7b81-4682-821a-d06de51a4200)
 
 ## Privilege Escalation
 
 Checking saad's privilege on the machine, we have
 
-[screenshot sudo-l]
+![sudo-l](https://github.com/sixth-sensei/sixth-sensei.github.io/assets/31647166/10caba94-7398-4c80-ab6a-9bf1c90c73ed)
 
 We can notice `LD_PRELOAD` is present in `env_keep`, let's craft our exploit by creating a simple c script
 
@@ -229,19 +228,19 @@ void _init()
 ```
 Save and compile the script as a shared object `.so` using `gcc -fPIC -shared [exploitname].c -o [exploitname].so -nostartfiles`
 
-[screenshot shell_code]
+![shell_code](https://github.com/sixth-sensei/sixth-sensei.github.io/assets/31647166/ba21571b-d196-4738-b8aa-0b9ad239d575)
 
 Now we can simply set a new path for `LD_PRELOAD` and run this script as a command the user has sudo privileges on, which in this case is `ping`
 
-[screenshot root-shell]
+![root-shell](https://github.com/sixth-sensei/sixth-sensei.github.io/assets/31647166/c612cd9d-c9e5-420d-9bd8-b4051c8c9d5e)
 
 ....and we're root! Listing the directory
 
-[screenshot rootflag]
+![rootflag](https://github.com/sixth-sensei/sixth-sensei.github.io/assets/31647166/b528915e-00de-4cf0-b549-edefec715f34)
 
-We can see our root flag, that marks the end h4x0r [rocket emoji]
+We can see our root flag, that marks the end h4x0r 🚀
 
-[salute gif]
+![salute](https://media1.tenor.com/m/tVy1iyr9AMQAAAAC/mr-bean-thumbs-up.gif)
 
 <br>
 
