@@ -153,7 +153,9 @@ We have now successfully pivoted from `www-data` to `ryuk` and now `light`; also
 There it is!
 
 ## Privilege Escalation
-Found out `light` has no sudo privileges after running `sudo -l`; decided to check groups it belonged to
+Found out `light` has no sudo privileges after running `sudo -l`; Then ran linpeas script on the machine and saw `docker` appears to be a 95% privilege escalation vector.
+
+Checked if light had any access
 
 [screenshot id_light]
 
