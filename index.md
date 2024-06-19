@@ -25,6 +25,7 @@ Hey👋, welcome to my Cyber Security Blog/Diary! I'm AbdulFatai, a n00b learnin
 - [[Apr 09 2024]] [Opacity](https://sixth-sensei.github.io/posts/thm/posts/opacity.html) `Directory Enumeration, Data Exfiltration, Hash cracking, privilege escalation`
 - [[May 15 2024]] [TryHack3M: Bricks Heist](https://sixth-sensei.github.io/posts/thm/posts/bricks.html) `CVE-2024-25600, wpscan, Linux Forensics, Remote Code Execution`
 - [[Jun 10 2024]] [Creative](https://sixth-sensei.github.io/posts/thm/posts/creative.html) `Sub-domain Enumeration, Hash cracking, LD_PRELOAD, Privilege escalation`
+- [[Jun 18 2024]] [Death Note](https://sixth-sensei.github.io/posts/thm/posts/deathnote.html) `File upload bypass, Sub-domain Enumeration, Docker, Privilege escalation`
 
 
 * * *
