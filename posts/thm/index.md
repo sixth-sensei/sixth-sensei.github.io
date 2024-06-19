@@ -25,3 +25,4 @@ Discover CyberSecLabs. With our growing platform delivering beginner hacking con
 - [[Mar 09 2024]] [AgentSudo](https://sixth-sensei.github.io/posts/thm/posts/agentsudo.html) `Brute force, binwalk, Hash cracking, privilege escalation`
 - [[Apr 09 2024]] [Opacity](https://sixth-sensei.github.io/posts/thm/posts/opacity.html) `Directory Enumeration, Data Exfiltration, Hash cracking, privilege escalation`
 - [[May 15 2024]] [TryHack3M: Bricks Heist](https://sixth-sensei.github.io/posts/thm/posts/bricks.html) `CVE-2024-25600, wpscan, Linux Forensics, Remote Code Execution`
+- [[Jun 10 2024]] [Creative](https://sixth-sensei.github.io/posts/thm/posts/creative.html) `Sub-domain Enumeration, Hash cracking, LD_PRELOAD, Privilege escalation`
