@@ -183,7 +183,7 @@ We can see our root flag and also successfully retrieved the **death note** 🗒
 
 The end, I hope you enjoyed it as much as i do
 
-![well done](https://media1.tenor.com/m/sIzMTGPxIeMAAAAd/well-done.gif)
+![salute](https://github.com/sixth-sensei/sixth-sensei.github.io/assets/31647166/4bb2ceb6-fd85-4ea9-8e34-fae03517c612)
 
 <br>
 
