@@ -5,13 +5,13 @@ title: Home
 
 <!--Favicon-->
 <!--link rel="shortcut icon" href="favico.ico" type="image/vnd.microsoft.icon"-->
-<h2 class="mume-header" id="mainindexhtml-nbspnbsp-contactcontacthtml"><a href="./index.html">Root</a>&#xA0;&#xA0;&#xA0; <a href="/posts/thm/index.html">TryHackMe</a>&#xA0;&#xA0;&#xA0; <a href="/posts/ptd/index.html">PwnTillDawn</a>&#xA0;&#xA0;&#xA0;</h2>
+<h2 class="mume-header" id="mainindexhtml-nbspnbsp-contactcontacthtml"><a href="./index.html">Root</a>&#xA0;&#xA0;&#xA0; <a href="/posts/thm/index.html">TryHackMe</a>&#xA0;&#xA0;&#xA0; <a href="/posts/ptd/index.html">PwnTillDawn</a>&#xA0;&#xA0;&#xA0; <a href="/posts/how-to/index.html">How-to</a>&#xA0;&#xA0;&#xA0;</h2>
 
 * * *
 ### Whoami:~#
 * * *
 
-Hey👋, welcome to my Cyber Security Blog/Diary! I'm AbdulFatai, a n00b learning offsec. I currently post writeups on rooms that i solve, would be adding more as i progress...
+Hey👋, welcome to my Cyber Security Blog/Diary! I'm AbdulFatai, a security enthusiast and cloud administrator. I currently post how-to's and writeups on rooms that i solve, would be adding more as i progress.....
 
 
 * * *
@@ -33,6 +33,12 @@ Hey👋, welcome to my Cyber Security Blog/Diary! I'm AbdulFatai, a n00b learnin
 - [[Apr 17 2024]] [Mr. Blue](https://sixth-sensei.github.io/posts/ptd/posts/mrblue.html) `SMB Enumeration, MS17-010, Manual Exploitation`
 
 
+
+
+* * *
+### **How-to's:~#**
+* * *
+- [[May 10 2025]] [Centralizing Server Storage with Azure File Sync](https://sixth-sensei.github.io/posts/how-to/posts/centralizing-server-storage-with-azure-file-sync.html) `Azure, File sync, Storage Sync Services`
 
 
 * * *
