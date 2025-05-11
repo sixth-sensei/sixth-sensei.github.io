@@ -146,3 +146,8 @@ Voila!
 
 Any file uploaded to the file share directly also gets replicated to the on-prem server completing a two-way sync and ensuring high availability.
 
+<br>
+
+<button onclick="window.location.href='https://sixth-sensei.github.io';">Back To Home 🏠</button>
+
+
