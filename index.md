@@ -11,7 +11,7 @@ title: Home
 ### Whoami:~#
 * * *
 
-Hey👋, welcome to my Cyber Security Blog/Diary! I'm AbdulFatai, a security enthusiast and cloud administrator. I currently post how-to's and writeups on rooms that i solve, would be adding more as i progress.....
+Hey👋, welcome to my Cyber Security Blog/Diary! I'm AbdulFatai, a security enthusiast and cloud administrator. I currently post how-to's and writeups on rooms that i solve, would be adding more as i progress...
 
 
 * * *
