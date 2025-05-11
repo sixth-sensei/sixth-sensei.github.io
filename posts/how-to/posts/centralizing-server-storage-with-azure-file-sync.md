@@ -95,7 +95,7 @@ Let's go ahead and install our file sync agent
 
 ![syncagent](https://github.com/user-attachments/assets/a8c38ff9-0622-4311-9961-095bbc670ce9)
 
-Once the installation complete, launch the application and follow the prompt. Select "AzureCloud" in the Azure environment then click "sign in"
+Once the installation completes, launch the application and follow the prompt. Select "AzureCloud" in the Azure environment then click "sign in"
 
 ![server registration](https://github.com/user-attachments/assets/89be5c76-0b1f-49d4-ac64-12820bf18342)
 
@@ -107,13 +107,13 @@ If registration was successful, you'll get this screen.
 
 ![server registration 3](https://github.com/user-attachments/assets/0ef53c49-dacb-490a-8166-7fe13eb11ada)
 
-NB: The connectivity test could take a minute or two depending on your connection strength.
+_NB: The connectivity test could take a minute or two depending on your connection strength._
 
 On the Azure portal, navigate to the sync group created earlier and click "+ Add server endpoint"
 
 ![18](https://github.com/user-attachments/assets/c4c1a5e0-bfae-423c-abfd-7ed79eb36d91)
 
-Select the on-prem server we just registered from the drop down, in my case "SRV-DC1.sixth-sensei.local". Next choose the path where the sync will be initiated from i.e all files in this path will be synced.
+Select the on-prem server we just registered from the drop down, in my case "SRV-DC1.sixth-sensei.local". Next, choose the path where the sync will be initiated from i.e all files in this path will be synced.
 
 ![19](https://github.com/user-attachments/assets/9a945b82-ef5b-48ef-ad74-3b5ccdf1e1c5)
 
